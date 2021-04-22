@@ -647,10 +647,12 @@ header {
 
 /*---- Container title -------- */
 
+
 .container-title {
     position: relative;
     top: -60px;
 }
+
 
 .container-title::after{
     width: 1120px;
@@ -1585,5 +1587,410 @@ header {
 }
 
 /*=====/WELCOME SECTION =====*/
+
+
+/*=====SECTION NAYAMI =====*/
+.section-nayami {
+    width: 100%;
+    height: 2300px;
+    /* padding-top: 50px;  */
+    background-color: #f4f4f4;
+    position:relative;
+}
+
+.section-nayami::after {
+    position: absolute;
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: 155px;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -150px;
+    background: url('../images/img_nayami_bg_arrow.png') no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    
+}
+
+.section-nayami-header {
+    width: auto;
+    max-width: 935px;
+    height: 235;
+    margin: auto;
+    margin-bottom: 56px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section-nayami-header::before {
+    width: 100%;
+    height: 56px;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    background: url(../images/img_nayami_header_line.png) no-repeat;
+    background-size: auto;
+
+}
+
+.section-nayami-header
+.section-title-description-bg{
+    font-family: var(--font-english-text);
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.section-nayami-header
+.row-description{
+    position: relative;
+    bottom: -10px;
+}
+
+.section-nayami-header
+.row-description p{
+   text-align: center;
+}
+
+
+.section-nayami-header
+.section-title-description {
+    width: 100%;
+    height: auto;
+    font-size: 38px;
+    font-family: var(--font-japanese-text);
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #484848;
+    position: absolute;
+    bottom: 28px;
+}
+
+
+.section-nayami-header
+.section-title {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: var(--font-japanese-text); 
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #00234b;
+    padding-top: -40px;
+    padding-bottom: 40px;
+}
+
+.section-nayami-header
+.section-title span {
+    font-size: 36px;
+    font-weight: 500;
+    color: #484848;
+}
+
+/* ----------- */
+
+.section-nayami
+.container-article {
+    width: 100%;
+    max-width: 1150px;
+    margin: auto;
+    position: relative;
+}
+
+.section-nayami
+.container-article-header{
+   width: 1050px;
+   height: 230px;
+   position: absolute;
+}
+
+.section-nayami
+.container-article-header{
+    width: 100%;
+    max-width: 1050px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -80px;
+    background: url('../images/img_bg_header.nayami.png') no-repeat;
+}
+
+.section-nayami
+.container-article-header
+.container-image {
+    position: relative;
+}
+
+.section-nayami
+.container-image img {
+    width: 100%;
+    max-width: 359px;
+    position: relative;
+    top: -80px;
+}
+
+.section-nayami
+.container-image .img_bg {
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    left: 0;
+    
+}
+
+
+.section-nayami h3 {
+    padding: 50px 75px 0 0;
+    font-size: 30px;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.section-nayami h3 span {
+    color: #f5e532;
+}
+
+/* ---------- */
+.section-nayami
+.container-article
+.container-article-content{
+   display: grid;
+   grid-template-columns: repeat(3, 381px);
+   grid-template-rows: repeat(2, auto);
+   align-items: baseline;
+   margin-top: 180px;
+   padding-top: 150px;
+   padding-bottom: 50px;
+   background-color: #f5e532;
+   border-radius: 16px;
+   border: 3px solid black;
+   
+}
+
+.section-nayami
+.container-article-content .article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+    padding-bottom: 20px;
+}
+
+
+.section-nayami
+.container-article-content .article:nth-child(3n - 1)::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 170px;
+    background-color: #00234b;
+    left: 10px;
+    bottom: 30px;
+}
+
+.section-nayami
+.container-article-content  .article:nth-child(3n - 1)::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 170px;
+    background-color: #00234b;
+    right: -10px;
+    bottom: 30px;
+}
+
+
+.section-nayami
+.container-article-content .article img {
+    max-width: 100%;
+}
+
+.section-nayami
+.container-article-content .article h4 {
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1.5px;
+    word-wrap: break-word;
+    color: #00234b;
+}
+
+.section-nayami
+.container-article-content .article p {
+    font-size: 18px;
+    font-family: var(--font-japanese-text);
+    color: #484848;
+}
+
+.section-nayami
+.container-article-content .article
+.step-number {
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left: 50px;
+    top: 30px;
+    font-size: 20px;
+    font-family: var(--font-english-text);
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    color: #00234b;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/* -- */
+
+.section-nayami .bottom-container{
+    width: 1150px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.section-nayami .bottom-container .circle{
+    width: 345px;
+    max-width: 345px;
+    height: 345px;
+    max-height: 345px;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 4px solid #00234b;
+    background-color: white;
+    font-size: 30px;
+    font-family: var(--font-japanese-text);
+    color: #484848;
+} 
+
+.section-nayami
+.bottom-container .circle span.especial-text {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #00234b;
+}
+
+
+.section-nayami .bottom-container .circle::after {
+    width: 30px; 
+     height: 30px; 
+     position: absolute;
+     z-index: 1;
+     bottom: 20px;
+     right: 42px;
+     content: "";
+     display: block;
+     border: 4px solid #00234b;
+     border-top: 1px solid transparent;
+     border-left: 1px solid transparent;
+     background-color: white;
+     -webkit-transform: rotate(8deg) skew(20deg, 20deg);
+     -moz-transform: rotate(8deg) skew(20deg, 20deg);
+     -ms-transform: rotate(8deg) skew(20deg, 20deg);
+     -o-transform: rotate(8deg) skew(20deg, 20deg);
+     transform: rotate(8deg) skew(20deg, 20deg);
+}
+
+.section-nayami .bottom-container .container-image {
+     width: 562px;
+     height: 473px;
+     position: absolute;
+     left: 50%;
+     bottom: -50px;
+     transform: translateX(-50%);
+}
+
+.section-nayami .bottom-container .container-image img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.section-nayami .bottom-container .container-vertical-text {
+     display: flex;
+     position: absolute;
+     right: 50px;
+     top: 30px;
+}
+
+.section-nayami .bottom-container .container-vertical-text
+.first-text {
+    width: 90px;
+    /* right: 470px;
+    top: 35px; */
+    margin-right: 30px;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    line-height: 110px;
+    font-size: 102.14px;
+    font-family: var(--font-japanese-text);
+    font-weight: bolder;
+    -webkit-text-stroke: 3px #00234b;
+    text-shadow: 2px 4px #F5E533;
+    color: transparent;
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+
+.section-nayami .bottom-container .container-vertical-text
+.second-text {
+    width: 26px;
+    word-wrap: break-word;
+    line-height: 32px;
+    margin-top: 5px;
+    /* position: absolute; */
+    /* right: 400px;
+    top: 42px; */
+    font-size: 26px;
+    font-family: var(--font-japanese-text);
+    font-weight: bolder;
+}
+
+
+/*=====SECTION SUPPORT ======= */
+
+.section-support {
+    background: url('../images/img_support_section_bg.png') no-repeat;
+    background-size: auto;
+}
+
+
+
+
+
+
 
 
