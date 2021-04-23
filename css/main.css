@@ -2667,6 +2667,8 @@ header {
     background: url('../images/img_support_section_bg.png') repeat-y;
     background-size: auto;
     padding-top: 130px;
+    padding-bottom: 130px;
+    overflow: hidden !important;
 }
 
 
@@ -2817,8 +2819,16 @@ header {
 .container-image {
     position: absolute;
     top: 40px;
-    right: -300px;
+    right: -200px;
 }
+
+/* .section-support
+.section-container-article
+ article 
+.container-image
+.small-picture {
+    position: absolute;
+} */
 
 /* .section-support
 .section-container-article
@@ -2835,7 +2845,7 @@ article:nth-child(even) {
 .section-support
 .section-container-article
 article:nth-child(even) .article-header h3 {
-   margin-left: 160px;
+   margin-left: 0px;
    padding-right: 20px;
    padding-left: 200px;
 }
@@ -2846,6 +2856,189 @@ article:nth-child(even) .container-content {
    padding-right: 50px;
    padding-left: 200px;
 }
+
+.section-support
+.section-container-article
+article:nth-child(even) .container-image {
+    position: absolute;
+    top: 40px;
+    left: -200px;
+}
+
+/* Section SUPPORT Responsive */
+
+/* Tablet */
+
+@media only screen and (max-width: 1350px) and (min-width: 768px){
+
+    .section-support {
+        padding-top: 62px;
+        padding-bottom: 45px;
+    }
+
+
+    .section-support-header {
+        width: 670px;
+        height: 255px;
+    }
+
+    .section-support-header::after {
+        background-size: contain;
+    }
+
+    .section-support-header .large-title-container{
+        top: 25px;
+    }
+
+    .section-support-header .large-title {
+        font-size: 92px;
+        font-weight: 600;
+        margin: 0;
+        top: unset;
+    }
+
+    .section-support-header .large-title-description {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .section-support-header .title {
+        font-size: 36px;
+        font-weight: 900;
+        font-family: var(--font-japanese-text);
+        letter-spacing: 3px;
+        text-align: center;
+        color: white;
+        -webkit-text-stroke: 2px #00234b;
+        text-stroke: 2px #00234b;
+       
+    }
+
+    .section-support-header .title-description {
+        font-family: var(--font-japanese-text);
+        font-weight: 500;
+        font-size: 26px;
+        color: #00234b;
+        text-align: center;
+        letter-spacing: 1.5px;
+        padding-bottom: 20px;
+    }
+
+    .section-support-header .title-container { 
+        bottom: 20px;
+    }
+
+    .section-support-header .large-title-container {
+
+    }
+
+    .section-support
+    .section-container-article { 
+        width: 670px;
+        margin-top: 78px !important;
+    }
+
+    .section-support
+    .section-container-article
+    article {
+        width: 580px;
+        margin-bottom: 100px !important;
+        border: 4px solid #00234b;
+    }
+
+    .section-container-article
+    .article-header h3{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20.2px;
+        letter-spacing: 1.5px;
+        padding: 20px 25px;
+        padding-right: 175px;
+    }
+
+    .section-support
+    .section-container-article
+    .container-content {
+        padding: 15px 10px;
+        padding-right: 160px;
+    }
+
+    .section-support
+    .section-container-article
+    article p {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        line-height: 16px; 
+        margin-bottom: 30px;
+
+    }
+
+    .section-support
+    .section-container-article
+    article 
+    .container-image img{
+        width: auto;
+        max-width: 248px;
+        height: auto;
+        max-height: 280px;
+    }
+
+    .section-support
+    .section-container-article
+    article 
+    .container-image {
+        position: absolute;
+        top: unset;
+        bottom: 0;
+        right: -240px;
+    }
+
+    .section-support
+    .section-container-article
+    article 
+    .container-image-especial {
+        right: unset;
+        right: -125px;
+    }
+
+    /* -- */
+    .section-support
+    .section-container-article
+    article:nth-child(even) {
+        margin-left: 90px;
+    }
+
+    .section-support
+    .section-container-article
+    article:nth-child(even) .article-header h3 {
+        margin-left: 0px;
+        padding-right: 20px;
+        padding-left: 175px;
+    }
+
+    .section-support
+    .section-container-article
+    article:nth-child(even) .container-content {
+        padding-right:  10px;
+        padding-left: 160px;
+    }
+
+    .section-support
+    .section-container-article
+    article:nth-child(even) .container-image {
+        position: absolute;
+        right: unset;
+        top: 40px;
+        left: -130px;
+    }
+
+
+}
+
+
 
 
 
