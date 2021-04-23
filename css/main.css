@@ -774,11 +774,13 @@ header {
     font-family: var(--font-japanese-text);
     font-weight: 900;
     -webkit-text-stroke: 3px #00234b;
+    text-stroke: 3px #00234b;
     text-shadow: 2px 6px #F5E533;
     color: transparent;
     background: white;
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
+    
 }
 
 .title-yellow-text-second-line {
@@ -2659,12 +2661,194 @@ header {
 }
 
 
-/*=====SECTION SUPPORT ======= */
+/*===== SECTION SUPPORT ======= */
 
 .section-support {
-    background: url('../images/img_support_section_bg.png') no-repeat;
+    background: url('../images/img_support_section_bg.png') repeat-y;
     background-size: auto;
+    padding-top: 130px;
 }
+
+
+.section-support-header {
+    width: 1000px;
+    height: 340px;
+    margin: auto;
+    position: relative;
+}
+
+.section-support-header::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 50px;
+    bottom: -10px;
+    left: 0;
+    background: url('../images/img_suport_header_bottom_line.png') no-repeat;
+}
+
+.section-support-header .large-title {
+    font-family: var(--font-english-text);
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-top: -25px;
+    text-align: center;
+    color: #fdf16f;
+}
+
+.section-support-header .large-title-description {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 1.5px;
+    text-align: center;
+    /* padding: 40px; */
+}
+
+.section-support-header .title {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px #00234b;
+    text-stroke: 2px #00234b;
+   
+    
+}
+
+.section-support-header .title-description {
+    font-family: var(--font-japanese-text);
+    font-weight: 500;
+    font-size: 45px;
+    color: #00234b;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+}
+
+.section-support-header .title-container {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.section-support-header .large-title-container {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .section-support-header
+
+
+.section-support  img */
+
+.section-support
+.section-container-article {
+    width: 1150px;
+    margin-top: 100px !important;
+    margin: auto;
+}
+
+.section-support
+.section-container-article
+ article {
+   width: 940px;
+   margin-bottom: 100px !important;
+   border: 4px solid #00234b;
+   border-radius: 8px;
+   position: relative;
+}
+
+.section-container-article
+.article-header {
+  border-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #004cbd;
+  overflow: hidden;
+}
+
+
+.section-container-article
+.article-header h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    padding: 30px 50px;
+    padding-right: 200px;
+    color: #f5e532;
+}
+
+.section-support
+.section-container-article
+.container-content {
+    padding: 30px 50px;
+    padding-right: 200px;
+    background-color: #f4f4f4;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.section-support
+.section-container-article
+ article p {
+   font-size: 18px;
+   font-family: var(--font-japanese-text);
+   font-weight: 500;
+   line-height: 35px;
+   margin-bottom: 20px;
+}
+
+.section-support
+.section-container-article
+ article 
+.container-image {
+    position: absolute;
+    top: 40px;
+    right: -300px;
+}
+
+/* .section-support
+.section-container-article
+ article:nth-child(odd) {
+    background: red;
+  } */
+  
+.section-support
+.section-container-article
+article:nth-child(even) {
+   margin-left: 160px;
+}
+
+.section-support
+.section-container-article
+article:nth-child(even) .article-header h3 {
+   margin-left: 160px;
+   padding-right: 20px;
+   padding-left: 200px;
+}
+
+.section-support
+.section-container-article
+article:nth-child(even) .container-content {
+   padding-right: 50px;
+   padding-left: 200px;
+}
+
+
+
 
 
 
