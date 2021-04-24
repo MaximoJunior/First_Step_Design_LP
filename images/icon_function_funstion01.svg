@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 780.8 624.9" style="enable-background:new 0 0 780.8 624.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F5E532;}
+	.st1{fill:none;stroke:#021F59;stroke-width:17.0079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#021F59;stroke-width:17.0079;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#021F59;}
+</style>
+<rect x="9.7" y="9.7" class="st0" width="762" height="548"/>
+<g id="レイヤー_2_1_">
+	<g>
+		<path class="st1" d="M69.2,554.3l1-452c67,0,642,0,642,0v399.3"/>
+		<line class="st1" x1="660.1" y1="172.3" x2="78.1" y2="172.3"/>
+		<line class="st1" x1="107.2" y1="134.3" x2="257.2" y2="134.3"/>
+		<line class="st1" x1="127.5" y1="443.2" x2="390.3" y2="443.2"/>
+		<line class="st1" x1="127.5" y1="482.2" x2="390.3" y2="482.2"/>
+		<line class="st1" x1="127.5" y1="521.2" x2="251.2" y2="521.2"/>
+		<line class="st1" x1="476.2" y1="385.2" x2="660.1" y2="385.2"/>
+		<line class="st1" x1="476.2" y1="424.2" x2="602.6" y2="424.2"/>
+		<line class="st1" x1="476.2" y1="463.2" x2="508.5" y2="463.2"/>
+		<line class="st1" x1="599.8" y1="463.2" x2="632" y2="463.2"/>
+		<g>
+			<g>
+				<line class="st1" x1="361" y1="134.3" x2="432.1" y2="134.3"/>
+			</g>
+			<g>
+				<line class="st1" x1="475" y1="134.3" x2="546.1" y2="134.3"/>
+			</g>
+			<g>
+				<line class="st1" x1="589" y1="134.3" x2="660.1" y2="134.3"/>
+			</g>
+		</g>
+		<g>
+			<rect x="127.5" y="216.3" class="st1" width="263" height="184"/>
+			<line class="st1" x1="130.7" y1="220.5" x2="388.4" y2="397.6"/>
+			<line class="st1" x1="234.2" y1="326.4" x2="131.4" y2="396.1"/>
+			<line class="st1" x1="389.2" y1="221.3" x2="283.6" y2="292.8"/>
+		</g>
+		<g>
+			<polygon class="st1" points="661.2,342.3 476.2,342.3 476.2,219.8 476.2,217.3 661.2,217.3 			"/>
+			<line class="st1" x1="479.6" y1="223.5" x2="655.2" y2="336.6"/>
+			<line class="st1" x1="543.7" y1="296.7" x2="482.6" y2="336.6"/>
+			<line class="st1" x1="656" y1="223.5" x2="591.2" y2="265.8"/>
+		</g>
+		<g>
+			<polyline class="st1" points="476.2,533.7 476.2,508.4 476.2,506 537.7,506 			"/>
+			<line class="st1" x1="479.6" y1="512.2" x2="504.6" y2="528.3"/>
+		</g>
+	</g>
+</g>
+<g id="レイヤー_1_1_">
+	<polyline class="st1" points="561.7,557.7 9.7,557.7 9.7,9.7 771.7,9.7 771.7,557.7 697.7,557.7 	"/>
+	<line class="st1" x1="13.7" y1="69.7" x2="765.7" y2="69.7"/>
+	<circle class="st1" cx="45.7" cy="39.7" r="7"/>
+	<circle class="st1" cx="87.7" cy="39.7" r="7"/>
+	<circle class="st1" cx="129.7" cy="39.7" r="7"/>
+	<g>
+		<g>
+			<line class="st2" x1="626.5" y1="535.5" x2="706.2" y2="615.1"/>
+			<g>
+				<polygon class="st3" points="615.7,613.8 641.4,550.3 704.8,524.7 554.7,463.7 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
