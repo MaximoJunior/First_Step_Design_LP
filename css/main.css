@@ -3281,6 +3281,7 @@ article:nth-child(even) .container-image {
 
 .section-works-header
 .large-title-container {
+    width: 100%;
     position: absolute;
     z-index: 1;
 }
@@ -3326,12 +3327,15 @@ article:nth-child(even) .container-image {
 .container-content
 .container-right-image {
     position: absolute;
+    z-index: 4;
     top: -210px;
 }
 
 .section-works
 .container-content
 .container-right-image{
+    position: absolute;
+    z-index: 4;
     right: 0;
 }
 
@@ -3341,7 +3345,7 @@ article:nth-child(even) .container-image {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    z-index: 5;
     border-radius: 16px;
     background-color: white;
 }
@@ -3350,6 +3354,7 @@ article:nth-child(even) .container-image {
 .container-sliders
 .sliders {
     width: 1050px;
+    max-width: 1050px;
     height: 230px;
     position: absolute;
     top: 50%;
@@ -3362,8 +3367,8 @@ article:nth-child(even) .container-image {
 .container-sliders
 .sliders
 .item {
-   width: 185px;
-   margin: 0 20px;
+   width: 205px;
+   padding: 0 10px;
 }
 
 .section-works
@@ -3392,6 +3397,8 @@ article:nth-child(even) .container-image {
    border: none;
    top: 50%;
    transform: translateY(-50%);
+   z-index: 4;
+   cursor: pointer;
 }
 
 .section-works
@@ -3409,16 +3416,64 @@ article:nth-child(even) .container-image {
 .section-works
 .container-bottom-images {
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
 }
 
+/* Responsive  */
 
+/* Tablet */
 
+@media only screen and (max-width: 1350px) and (min-width: 768px){
 
+    .section-works-header {
+        width: 500px;
+        height: 125px;
+    }
 
+    .section-works-header
+    .title-container {
+         bottom: 25px;
+    }
+
+    .section-works-header .title {
+        font-size: 36px;
+        font-weight: 900;
+        letter-spacing: 4px;
+    }
+
+    .section-works-header
+    .large-title-container {
+        top: -22px;
+    }
+
+    .section-works-header .large-title {
+        width: 100%;
+        margin-top: 0;
+        font-family: var(--font-english-text);
+        font-size: 92px;
+    }
+
+    .section-works
+    .container-content{
+        width: 710px;
+    }
+
+    .section-works
+    .container-sliders
+    .sliders {
+        width: 610px;
+    }
+
+    .section-works
+    .sliders
+    .item p { 
+       font-size: 12px;
+    }
+    
+}
 
 /*=====/SECTION WORKS ======= */
 
