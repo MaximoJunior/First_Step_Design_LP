@@ -3475,6 +3475,129 @@ article:nth-child(even) .container-image {
     
 }
 
+/* Phone */
+
+@media screen and (max-width: 767px){ 
+
+    .section-works { 
+       height: 585px;
+       overflow: hidden;
+    }
+
+    .section-works-header {
+        width: 260px;
+        height: 60px;
+    }
+    
+    .section-works-header
+    .title-container {
+        bottom: 18px;
+    }
+    
+    .section-works-header .title {
+        font-size: 17px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 1px #00234b;
+        text-stroke: 1px #00234b;
+    }
+    
+    .section-works-header
+    .large-title-container {
+        top: -12px;
+    }
+    
+    .section-works-header .large-title {
+        width: 100%;
+        margin-top: 0;
+        font-family: var(--font-english-text);
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+    .section-works
+    .container-content{
+        width: 300px;
+        margin-top: 60px;
+    }
+
+    .section-works
+    .container-content
+    .container-left-image,
+    .section-works
+    .container-content
+    .container-right-image {
+        position: absolute;
+        z-index: 4;
+        top: -108px;
+    }
+
+    .section-works
+    .container-content
+    .container-left-image {
+      left: -15px;
+    }
+
+    .section-works
+    .container-content
+    .container-right-image {
+      right: -15px;
+    }
+
+    .section-works
+    .container-content
+    .container-left-image img,
+    .section-works
+    .container-content
+    .container-right-image img {
+        width: auto;
+        max-width: 121px;
+        height: auto;
+        max-height: 140px;
+    }
+
+    .section-works
+    .container-sliders
+    .sliders {
+        width: 204px;
+    }
+
+    .section-works
+    .sliders
+    .item p { 
+       font-size: 12px;
+    }
+
+    .section-works
+    .container-sliders #btn-next-slide {
+        right: 5px;
+    }
+
+    .section-works
+    .container-sliders #btn-prev-slide {
+        left: 9px;
+    } 
+
+    .section-works
+    .container-bottom-images {
+        position: absolute;
+        z-index: 5;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+   }
+    
+   .section-works
+    .container-bottom-images img {
+        width: auto;
+        height: auto;
+        max-width: 177px;
+        max-height: 149px;
+    }
+
+    
+}
+
 /*=====/SECTION WORKS ======= */
 
 
