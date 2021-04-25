@@ -3673,10 +3673,6 @@ article:nth-child(even) .container-image {
     row-gap: 80px;
 }
 
-.section-function
-.section-container-article article{
-    
-}
 
 .section-function
 .section-container-article 
@@ -4156,17 +4152,6 @@ article .article-paragraph{
         width: 155px;
         top: 0px;
     }   
-
-    /* .section-plan-header
-    .description-title-container::before {
-        content: "";
-        position: absolute;
-        width: 155px;
-        height: 15px;
-        bottom: 1px;
-        background-color: #f5e532;
-        z-index: -1;
-    }     */
     
     .section-plan-header
     .description-title {
@@ -4479,6 +4464,215 @@ article .article-paragraph{
     }    
 
 }
+
+
+/* === SECTION SERVICE === */
+
+.section-service {
+    background-color: #f5e532;
+    position: relative;
+    padding-bottom: 230px;
+}
+
+
+.section-service-header {
+    width: 690px;
+    height: 155px;
+    margin: auto;
+    position: relative;
+}
+
+.section-service-header
+.title-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.section-service-header
+.large-title-container {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.section-service-header .title {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #00234b;
+    text-stroke: 2px #00234b;
+}
+
+.section-service-header .large-title {
+    margin-top: -46px;
+    font-family: var(--font-english-text);
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #fdf16f;
+}
+
+.section-service 
+.section-container-paragraph {
+    width: 780px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.section-service 
+.section-container-paragraph p {
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #484848;
+}
+
+/* ------------ */
+
+.section-service 
+.section-container-article {
+    position: relative;
+    width: 960px;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 60px;
+    column-gap: 100px;
+}
+
+.section-service 
+.section-container-article
+.article {
+    position: relative;
+}
+
+.section-service 
+.section-container-article 
+.article:nth-child(3n - 1)::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 130px;
+    background-color: #00234b;
+    left: -50px;
+    bottom: 30px;
+}
+
+.section-service 
+.section-container-article  
+.article:nth-child(3n - 1)::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 130px;
+    background-color: #00234b;
+    right: -50px;
+    bottom: 30px;
+}
+
+.section-service 
+.section-container-article
+.article-image {
+    width: auto;
+    height: 63px;
+    display: block;
+    margin: auto;
+}
+
+.section-service 
+.section-container-article
+.article-title {
+   font-size: 20px;
+   font-weight: 900;
+   font-family: var(--font-japanese-text);
+   letter-spacing: 1.5px;
+   text-align: center;
+   line-height: 34px;
+   margin: 25px 0;
+   color: #00234b;
+}
+
+.section-service 
+.section-container-article
+.article-paragraph {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 1.5px;
+    line-height: 34px;
+    margin: 25px 0;
+    color: #484848;
+}
+
+/* ---- */
+
+.section-service
+.container-left-images,
+.section-service
+.container-right-images {
+    position: absolute;
+    width: 300px;
+    height: 680px;
+}
+
+.section-service
+.container-left-images{
+  left: -300px;
+}
+
+.section-service
+.container-right-images {
+    right: -300px;
+}
+
+
+.section-service
+.container-right-images
+.container-image,
+.section-service
+.container-left-images
+.container-image {
+    position: absolute;
+    width: 100%;
+}
+
+
+.section-service
+.container-left-images
+.bottom,
+.section-service
+.container-right-images
+.bottom {
+    bottom: 100px;
+}
+
+.section-service
+.container-left-images
+.bottom {
+    bottom: 25px;
+}
+
+.section-service
+.container-left-images
+.top {
+    top: -50px;
+}
+
 
 
 
