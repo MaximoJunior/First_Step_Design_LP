@@ -1617,7 +1617,7 @@ header {
 /*=====SECTION NAYAMI =====*/
 .section-nayami {
     width: 100%;
-    height: 2300px;
+    height: auto;
     /* padding-top: 50px;  */
     background-color: #f4f4f4;
     position:relative;
@@ -1731,7 +1731,15 @@ header {
 .container-article {
     width: 100%;
     max-width: 1150px;
+    height: auto;
     margin: auto;
+    background-color: #f5e532;
+    background-color: #f5e532;
+    border-radius: 16px;
+    border: 4px solid black;
+    margin-top: 180px;
+    padding-top: 190px;
+    padding-bottom: 90px;
     position: relative;
 }
 
@@ -1796,28 +1804,20 @@ header {
 .section-nayami
 .container-article
 .container-article-content{
+   width: 990px;
+   height: auto;
+   margin: auto;
    display: grid;
-   grid-template-columns: repeat(3, 381px);
+   grid-template-columns: repeat(3, 1fr);
    grid-template-rows: auto;
-   align-items: baseline;
-   margin-top: 180px;
-   padding-top: 150px;
-   padding-bottom: 50px;
-   background-color: #f5e532;
-   border-radius: 16px;
-   border: 4px solid black;
-   
+   row-gap: 41px;
+   column-gap: 150px;
+
 }
 
 .section-nayami
 .container-article-content .article {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 70px;
-    padding-bottom: 20px;
 }
 
 
@@ -1829,8 +1829,8 @@ header {
     width: 2px;
     height: 170px;
     background-color: #00234b;
-    left: 0px;
-    bottom: 30px;
+    left: -75px;
+    bottom: 0;
 }
 
 .section-nayami
@@ -1841,25 +1841,28 @@ header {
     width: 2px;
     height: 170px;
     background-color: #00234b;
-    right: 0px;
-    bottom: 30px;
+    right: -75px;
+    bottom: 0;
 }
 
 
 .section-nayami
 .container-article-content .article img {
-    max-width: 100%;
+    width: auto;
+    height: 190px;
+    display: block;
+    margin: auto;
 }
 
 .section-nayami
 .container-article-content .article h4 {
-    line-height: 30px;
     font-size: 20px;
     font-family: var(--font-japanese-text);
     font-weight: 500;
+    padding: 18px 0;
+    line-height: 30px;
     text-align: center;
     letter-spacing: 1.5px;
-    word-wrap: break-word;
     color: #00234b;
 }
 
@@ -1878,8 +1881,8 @@ header {
     width: 50px;
     height: 50px;
     position:absolute;
-    left: 50px;
-    top: 30px;
+    left: -20px;
+    top: 0;
     background: white;
     border: none;
     border-radius: 50%;
