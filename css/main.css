@@ -5028,6 +5028,11 @@ article .article-paragraph{
     text-align: center;
     top: 100px;
 }
+.section-flow-header
+.image-container img {
+    width: 281px;
+    height: 245px;
+}
 
 .section-flow-header
 .image-container
