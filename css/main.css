@@ -373,7 +373,7 @@ header {
      content: "";
      display: block;
      border: 4px solid #00234b;
-     border-radius: 5px;
+     border-radius: 0 0 5px 0;
      border-top: 1px solid transparent;
      border-left: 1px solid transparent;
      background-color: white;
@@ -413,7 +413,7 @@ header {
      content: "";
      display: block;
      border: 4px solid #00234b;
-     border-radius: 5px;
+     border-radius: 0 0 5px 0;
      border-top: 1px solid transparent;
      border-left: 1px solid transparent;
      background-color: white;
@@ -453,7 +453,7 @@ header {
     width: 30px; 
     height: 30px; 
     border: 4px solid #00234b;
-    border-radius: 5px;
+    border-radius: 0 0 5px 0;
     border-top: 0px solid transparent;
     border-left: 0px solid transparent;
     background-color: white;
