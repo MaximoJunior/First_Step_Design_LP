@@ -1885,6 +1885,7 @@ header {
     border-radius: 50%;
 }
 
+.section-nayami
 .container-article-content .article
 .step-number span {
     position: absolute;
@@ -4947,9 +4948,12 @@ article .article-paragraph{
 
 }
 
+
 /* === SECTION FLOW === */
+
 .section-flow {
-    background: url('../images/img_flow_bg.png') no-repeat;
+    background: url('../images/img_flow_bg.png');
+    padding-bottom: 150px;
 }
 
 .section-flow-header {
@@ -5012,6 +5016,7 @@ article .article-paragraph{
     font-weight: 500;
     font-family: var(--font-japanese-text);
     letter-spacing: 1.5px;
+    color: #00234b;
 }
 
 .section-flow-header
@@ -5060,26 +5065,84 @@ article .article-paragraph{
 }
 
 .section-flow
+.container-article article::before {
+    content: "";
+    width: 190px;
+    height: 50px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    background: url('../images/img_flow_article_arrow.png') no-repeat;
+    background-size: contain;
+    transform: translateX(-50%);
+}
+
+.section-flow
+.container-article article::after{
+    content: "";
+    width: 280px;
+    height: 55px;
+    position: absolute;
+    bottom: -35px;
+    left: 49%;
+    background: url('../images/img_flow_article_arrow_line.png') no-repeat;
+    background-size: contain;
+    transform: translateX(-50%);
+}
+
+.section-flow
+.container-article article:last-child:before,
+.section-flow
+.container-article article:last-child:after {
+    display: none;
+}
+
+.section-flow
 .container-article
-.article .step-number{
+article .step-number{
     width: 50px;
     height: 50px;
+    margin-right: 15px;
     background-color: #f4f4f4;
     color: #004cbd;
     border-radius: 50%;
     display: block;
-    position: absolute;
-    top: 50px;
-    left: 50px;
+    position: relative;
+    /* position: absolute; */
+    /* top: 55px;
+    left: 50px; */
 }
+
+.section-flow
+.container-article
+article .step-number span {
+    font-size: 20px;
+    font-weight: 600;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); 
+     color: #004cbd;
+}
+
 .section-flow
 .container-article
 .article-header {
-    width: 385px;
-    padding: 50px 50px;
-    padding-right: 0;
-    background-color: #004cbd;
     position: relative;
+    width: 385px;
+    height: 100%;
+    padding: 50px;
+    padding-right: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #004cbd;
+}
+
+.section-flow
+article
+.header-title-container {
+    display: flex;
+    align-items: center;
 }
 
 .section-flow
@@ -5089,15 +5152,16 @@ article .article-paragraph{
     font-weight: 500;
     font-family: var(--font-japanese-text);
     letter-spacing: 1.5px;
+    /* margin-left: 70px; */
     padding: 15px 0;
     color: #f4f4f4;
 }
 
 .section-flow
 .container-article
-.article-header h3
-span {
- 
+.article-header img {
+    position: relative;
+    bottom: 0;
 }
 
 
@@ -5105,7 +5169,178 @@ span {
 .container-article
 .article-content-container {
     width: 765px;
-    background-color: white;
+    padding: 40px 50px;
+    background-color: #f4f4f4;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
+
+.section-flow
+.container-article
+.article-content-container p {
+    font-size: 17px;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 1.5px;
+    line-height: 34px;
+    margin-bottom: 45px;
+    font-weight: 500;
+    color: #484848;
+}
+
+/* Responsise */
+
+/* Tablet */
+
+@media only screen and (max-width: 1350px) and (min-width: 768px){ 
+    .section-flow {
+        padding-bottom: 100px;
+    }
+    .section-flow-header {
+        width: 668px;
+        height: 450px;
+    }
+
+    .section-flow-header::before {
+        bottom: -125px;
+    }
+
+    .section-flow-header
+    .large-title-container {
+        top: -23px; 
+    }
+
+    .section-flow-header
+    .large-title { 
+        font-size: 92px;
+        letter-spacing: 0;
+    }
+
+    .section-flow-header
+    .large-title-description {
+        font-size: 18.7px;
+    }
+
+    .section-flow-header
+    .title-container {
+        bottom: 70px;
+    }
+  
+    .section-flow-header
+    .title { 
+        font-size: 36.14px;
+        letter-spacing: 3px;
+    }
+
+    .section-flow-header
+    .image-container {
+        top: 40px;
+    }
+
+    .section-flow-header
+    .image-container img {
+        width: 222px;
+        height: 194px;
+    }    
+
+    .section-flow-header
+    .image-container
+    .image-description {
+        width: 320px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+
+    /* ---- */
+    .section-flow
+    .container-article { 
+        width: 668px;
+        margin-top: 60px;
+    }  
+    
+    .section-flow
+    .container-article article {
+        height: 330px;
+        margin-bottom: 40px;
+    }   
+
+    .section-flow
+    .container-article article::before { 
+        width: 100px;
+        height: 35px;
+        bottom: -20px;
+    }
+    
+    .section-flow
+    .container-article article::after{ 
+        width: 160px;
+        height: 32px;
+        bottom: -18px;
+        left: 50%;
+    }    
+
+    .section-flow
+    .container-article
+    article .step-number{ 
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }   
+    
+    .section-flow
+    .container-article
+    article .step-number span{
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }   
+    
+    .section-flow
+    .container-article
+    .article-header {
+       width: 250px  !important;
+       padding: 20px;
+       padding-right: 0;
+    }    
+
+    .section-flow
+    .container-article
+    .article-header h3 {
+        font-size: 14px;
+    }  
+    
+    .section-flow
+    .container-article
+    .article-header img {
+        /* width: 190px; */
+        height: auto;
+        margin-top: 50px;
+        bottom: 0;
+    }   
+
+    .section-flow
+    .container-article
+    .article-header
+    .img-special {
+        width: 190px;
+    }
+    
+    .section-flow
+    .container-article
+    .article-content-container {
+        width: 420px;
+        padding: 20px;
+    }  
+    
+    .section-flow
+    .container-article
+    .article-content-container p {
+        font-size: 12px;
+        font-weight: 600;
+        height: 24px;
+    }    
+
+}
+
+
 
 
