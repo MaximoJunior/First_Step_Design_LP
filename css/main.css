@@ -2095,8 +2095,11 @@ header {
 
     .section-nayami
     .container-article {
-        width: 100%;
+        width: 668px;
         max-width: 668px;
+        padding-top: 130px;
+        padding-bottom: 80px;
+        margin-top: 100px;
     }
 
     .section-nayami
@@ -2140,53 +2143,54 @@ header {
     .section-nayami
     .container-article
     .container-article-content{
+        width: 555px;
+        margin: auto;
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        align-items: flex-start;
-        margin-top: 100px;
-        padding-top: 90px;
-        padding-bottom: 40px;
-        background-color: #f5e532;
-        border-radius: 16px;
-        border: 3px solid black;
-        
+        column-gap: 100px;
+        row-gap: 40px;
     }
     .section-nayami
     .container-article-content .article {
-        width: 334px;
-        height: 407px;
-        overflow: hidden;
+        position: relative;
+    } 
+
+    .section-nayami
+    .container-article-content .article::before {
+       display: none !important;
     }
 
     .section-nayami
     .container-article-content .article::after {
-       display: none;
+       display: none !important;
     }
 
     .section-nayami
-    .container-article-content  .article:nth-child(2n + 2)::before {
+    .container-article-content  
+    .article:nth-child(odd)::after {
         position: absolute;
         content: "";
-        display: block;
+        display: block !important;
         width: 2px;
-        height: 197px;
+        height: 170px;
         background-color: #00234b;
-        right: 0px;
-        bottom: 30px;
+        left: unset;
+        right: -50px;
+        bottom: 0;
     }
 
     .section-nayami
-   .container-article-content .article h4 {
-        padding: 15px 20px;
+    .container-article-content .article h4 {
+        padding: 20px 0;
         line-height: 21.6px;
         font-size: 14px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         text-align: center;
         letter-spacing: 1.5px;
-        word-wrap: break-word;
     }
+
 
     .section-nayami
     .container-article-content .article p {
@@ -2203,8 +2207,8 @@ header {
         max-width: 50px;
         height: 50px;
         position:absolute;
-        left: 40px;
-        top: 30px;
+        left: -20px;
+        top: 0px;
         text-align: center;
         font-size: 14.4px;
         line-height: 11.28px;
@@ -2414,8 +2418,11 @@ header {
 
     .section-nayami
     .container-article {
-        width: 100%;
-        max-width: 280px;
+        width: 300px;
+        max-width: 300px;
+        margin-top: 130px;
+        padding-top: 75px;
+        padding-bottom: 60px;
     }
 
     /* --- */
@@ -2482,23 +2489,11 @@ header {
     .section-nayami
     .container-article
     .container-article-content{
+        width: 230px;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
-        align-items: flex-start;
-        margin-top: 135px;
-        padding-top: 70px;
-        padding-bottom: 30px;
-        background-color: #f5e532;
-        border-radius: 16px;
-        border: 3px solid black;
         
-    }
-    .section-nayami
-    .container-article-content .article {
-        padding: 0 40px;
-        padding-bottom: 20px;
-        overflow: hidden;
     }
 
     .section-nayami
@@ -2513,14 +2508,13 @@ header {
 
     .section-nayami
    .container-article-content .article h4 {
-        padding: 15px 38px;
+        padding: 20px 0;
         line-height: 21.6px;
         font-size: 13px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         text-align: center;
         letter-spacing: 1.5px;
-        word-wrap: break-word;
     }
 
     .section-nayami
@@ -2529,7 +2523,6 @@ header {
         font-family: var(--font-japanese-text);
         font-weight: 500;
         line-height: 19.43px;
-    
     }
 
     .section-nayami
@@ -2539,8 +2532,8 @@ header {
         max-width: 45px;
         height: 45px;
         position:absolute;
-        left: 20px;
-        top: 0px;
+        left: -10px;
+        top: 0;
         text-align: center;
         font-size: 12px;
         line-height: 11.28px;
@@ -2549,6 +2542,12 @@ header {
         padding-top:  5px;
         font-weight: 400;
      
+    }
+
+    .section-nayami
+    .container-article-content .article
+    .step-number span {
+        font-size: 12px;
     }
 
 
