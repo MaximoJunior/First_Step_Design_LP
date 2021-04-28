@@ -1768,6 +1768,8 @@ header {
 .container-article-header
 .container-image {
     position: relative;
+    width: 100%;
+    max-width: 359px;
 }
 
 .section-nayami
@@ -2117,6 +2119,12 @@ header {
         font-family: var(--font-japanese-text);
         font-weight: 500;
         letter-spacing: 2px;
+    }
+
+    .section-nayami
+    .container-article-header
+    .container-image {
+        width: 200px;
     }
 
     .section-nayami
