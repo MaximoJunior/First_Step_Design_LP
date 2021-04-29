@@ -5511,4 +5511,464 @@ article
 }
 
 
+/*== SECTION CONTACT ==*/
 
+.section-contact{
+   background-color: #f4f4f4;
+}
+
+.section-contact-header {
+    width: 870px;
+    height: 155px;
+    margin: auto;
+    position: relative;
+}
+
+.section-contact-header
+.title-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.section-contact-header
+.large-title-container {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.section-contact-header .title {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 4px;
+    text-align: center;
+    color:#00234b;
+    /* -webkit-text-stroke: 2px #00234b;
+    text-stroke: 2px #00234b; */
+}
+
+.section-contact-header .large-title {
+    text-align: center;
+    margin-top: -45px;
+    font-family: var(--font-english-text);
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-contact 
+.section-container-paragraph{
+    width: 850px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.section-contact 
+.section-container-paragraph p {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    color: #484848;
+}
+
+.section-container-paragraph
+.img-container {
+    position: absolute;
+    right: -185px;
+    top: 0;
+    width: 185px;
+    height: 404px;
+}
+
+.section-container-paragraph
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.section-contact
+a.container-link-phone {
+    display: block;
+    width: 725px;
+    height: 200px;
+    padding: 30px 0 40px 0;
+    margin: auto;
+    margin-top: 55px;
+    border: 3px solid #00234b;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.section-contact
+.phone-title {
+    width: 204px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--font-japanese-text);
+    color: #00234b;
+    position: relative;
+}
+
+.section-contact
+.phone-title::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 165px;
+    height: 2px;
+    background-color: #00234b;
+    left: -180px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.section-contact
+.phone-title::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 165px;
+    height: 2px;
+    background-color: #00234b;
+    right: -180px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-contact
+.container-phone-number {
+    width: 325px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.section-contact
+.container-phone-number 
+.phone-icon{
+   margin-right: 10px;
+}
+
+.section-contact
+.container-phone-number 
+.phone-icon img {
+    width: 28px;
+    height: 30px;
+}
+
+.section-contact
+.container-phone-number 
+.phone-number {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: var(--font-english-text);
+    letter-spacing: 0.5px;
+    color: #00234b;
+}
+
+.section-contact
+.container-link-phone
+.container-schedule {
+    width: 460px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: var(--font-japanese-text);
+    color: #00234b;
+    text-align: center;
+}
+
+.section-contact
+.container-form {
+    width: 1050px;
+    margin: auto;
+}
+
+.section-contact
+.container-form .advice {
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 60px auto;
+    color: #484848;
+}
+
+.section-contact
+.container-form
+.form-input-row {
+    display: flex;
+    border-bottom: 1px dotted #484848;
+}
+
+.section-contact
+.container-form
+.form-input-row:first-child {
+    border-top: 1px dotted #484848;
+}
+
+.section-contact
+.container-form
+.form-input-column {
+    padding: 10px;
+}
+
+.section-contact
+.container-form
+.form-input-column-tag {
+    width: 360px;
+}
+
+.section-contact
+.container-form
+.form-input-column-control {
+    width: 685px;
+}
+
+.section-contact
+.container-form
+.form-input-column .label-checkbox,
+.section-contact
+.container-form
+.form-input-column .label-radiobox,
+.section-contact
+.container-form
+.form-input-column p {
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 1.5px;
+}
+
+
+.section-contact
+.container-form
+.form-input-column-tag {
+    font-weight: 600;
+    color: #00234b;
+}
+
+.section-contact
+.container-form
+.form-input-column-control label,
+.section-contact
+.container-form
+.form-input-column-control label {
+   color: #484848;
+}
+
+.section-contact
+.container-form
+.row-control-input {
+    width: 100%;
+    margin: 9px 0;
+}
+
+.section-contact
+.container-form
+.row-control-input input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00234b;
+    border-radius: 5px;
+    outline: none;
+}
+
+.section-contact
+.container-form
+.row-control-input textarea {
+   width: 100%;
+   height: 160px;
+   padding: 10px;
+   border: 1px solid #00234b;
+   border-radius: 5px;
+   outline: none;
+   resize: vertical;
+}
+
+/* Checkbox */
+.section-contact
+.container-form
+.checkbox {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-contact
+  .container-form
+  .checkbox-input {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .section-contact
+  .container-form
+  .checkbox-control  {
+    position: relative;
+     margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00234b;
+    border-radius: 4px;
+  }
+  
+  .section-contact
+  .container-form
+  .checkbox-control::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 9.5px;
+    height: 9.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00234b;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .section-contact
+  .container-form
+  .checkbox-input:checked+.checkbox-control:after {
+    opacity: 1;
+  }
+
+  /* Radiobox */
+  /* Checkbox */
+.section-contact
+.container-form
+.radiobox {
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 25px;
+  }
+  
+  .section-contact
+  .container-form
+  .radiobox-input {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .section-contact
+  .container-form
+  .radiobox-control  {
+    position: relative;
+     margin-right: 8px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00234b;
+    border-radius: 50%;
+  }
+  
+  .section-contact
+  .container-form
+  .radiobox-control::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00234b;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .section-contact
+  .container-form
+  .radiobox-input:checked+.radiobox-control:after {
+    opacity: 1;
+  }
+
+.section-contact
+.container-form input[type=submit] {
+    display: block;
+    width: 380px;
+    height: auto;
+    margin: auto;
+    margin-top: 45px;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-family: var(--font-japanese-text);
+    letter-spacing: 1.5px;
+    background-color: #dd2a55;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+/* .section-contact
+.container-form form {
+    padding: 0 15px;
+}
+
+.section-contact
+.container-form form
+.form-input-row {
+    display: flex;
+    padding: 10px;
+}
+
+.section-contact
+.container-form
+.form-input-column-tag{
+    width: 360px;
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 900;
+    color: #00234b;
+}
+
+.section-contact .container-form
+.row-control-input,
+.section-contact .container-form 
+.form-input-column-tag {
+    padding: 10px 0;
+}
+
+form-input-column-control
+
+.section-contact .container-form
+.row-control-input {
+    padding: 10px;
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #484848;
+} */
