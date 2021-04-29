@@ -5941,3 +5941,276 @@ a.container-link-phone {
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 1350px) and (min-width: 768px){
+
+    .section-contact-header {
+       width: 620px;
+       height: 120px;
+    }
+
+    .section-contact-header
+    .large-title-container {
+        margin-top: -22px;
+    }
+
+    .section-contact-header
+    .title-container {
+       
+        bottom: 23px ;
+    }    
+
+    .section-contact-header .title { 
+        font-size: 36px;
+    }
+
+    .section-contact-header .large-title { 
+        font-size: 92px;
+        margin: 0;
+    }
+
+    .section-contact 
+    .section-container-paragraph{
+        width: 668px;
+    }
+
+    .section-contact 
+    .section-container-paragraph p {
+      font-size: 12px;
+      line-height: 24px;
+    }    
+
+    .section-container-paragraph
+    .img-container {
+        position: absolute;
+        right: 0px;
+        top: -150px;
+        width: 84px;
+        height: 183px;
+    }   
+    
+    .section-contact
+    a.container-link-phone { 
+        width: 668px;
+    }
+
+    .section-contact
+    .container-form .advice { 
+        font-size: 12px;
+        margin: 50px auto;
+    }
+
+    .section-contact
+    .container-form {
+        width: 668px;
+        margin: auto;
+    }
+
+    .section-contact
+    .container-form
+    .form-input-row {
+        flex-direction: column;
+    }
+
+    /* .section-contact
+    .container-form
+    .form-input-column .label-checkbox,
+    .section-contact
+    .container-form
+    .form-input-column .label-radiobox,
+    .section-contact
+    .container-form
+    .form-input-column p {
+        font-size: 14px;
+    } */
+
+ }
+
+ @media only screen and (max-width: 767px) {
+
+    .section-contact-header {
+       width: 300px;
+       height: 60px;
+    }
+
+    .section-contact-header
+    .large-title-container {
+        margin-top: -22px;
+    }
+
+    .section-contact-header
+    .title-container {
+       
+        bottom: 23px ;
+    }    
+
+    .section-contact-header .title { 
+        font-size: 17px;
+    }
+
+    .section-contact-header .large-title { 
+        font-size: 46px;
+        margin: 0;
+    }
+
+    .section-contact 
+    .section-container-paragraph{
+        width: 260px;
+    }
+
+    .section-contact 
+    .section-container-paragraph p {
+      font-size: 11px;
+      line-height: 16px;
+    }    
+
+    .section-container-paragraph
+    .img-container {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: -150px;
+        width: 84px;
+        height: 183px;
+    }   
+    
+    .section-contact
+    a.container-link-phone { 
+        width: 300px;
+        height: 160px;
+    }
+
+    .section-contact
+    .phone-title {
+        font-size: 12px;
+    }
+
+    .section-contact
+    .phone-title::before { 
+        width: 35px;
+        left: 0;
+    }
+
+    .section-contact
+    .phone-title::after { 
+        width: 35px;
+        right: 0;
+    }
+
+    .section-contact
+    .container-phone-number {
+        width: 200px;
+    }
+
+    .section-contact
+    .container-phone-number 
+    .phone-icon{
+       margin-right: 10px;
+    }
+
+    .section-contact
+    .container-phone-number 
+    .phone-icon img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .section-contact
+    .container-phone-number 
+    .phone-number {
+        font-size: 18px;
+    }
+
+    .section-contact
+    .container-link-phone
+    .container-schedule {
+        width: 190px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-contact
+    .container-form .advice { 
+        width: 300px;
+        font-size: 12px;
+        text-align: left;
+        margin: 50px auto;
+    }
+
+    .section-contact
+    .container-form {
+        width: 300px;
+        margin: auto;
+    }
+
+    .section-contact
+    .container-form
+    .form-input-row {
+        flex-direction: column;
+    }
+
+    .section-contact .container-form .form-input-column {
+        padding: 10px 0 10px 0;
+    }
+
+    .section-contact
+    .container-form
+    .form-input-column .label-checkbox,
+    .section-contact
+    .container-form
+    .form-input-column .label-radiobox {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+
+    .section-contact
+    .container-form
+    .form-input-column-tag{
+        width: 100%;
+    }
+
+    .section-contact .container-form .form-input-column-control
+    .label-for-text-input {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+
+    .section-contact
+    .container-form
+    .form-input-column-tag p{
+       font-size: 14px;
+    }
+
+    .section-contact
+    .container-form
+    .form-input-column-control {
+        width: auto;
+    }
+
+    .section-contact .container-form .row-control-input {
+        width: 100%;
+        margin: 2px 0;
+    }
+
+    .section-contact
+    .container-form input[type=submit] {
+        width: 200px;
+        border-radius: 9px;
+        padding: 10px 0;
+        font-size: 10px;
+    }
+
+    /* .section-contact
+    .container-form
+    .form-input-column .label-checkbox,
+    .section-contact
+    .container-form
+    .form-input-column .label-radiobox,
+    .section-contact
+    .container-form
+    .form-input-column p {
+        font-size: 14px;
+    } */
+
+
+ }
