@@ -1328,6 +1328,10 @@ header {
      
      .second-circle {
          position: relative;
+         width: 100px;
+         max-width: 100px;
+         height: 100px;
+         max-height: 100px;
          margin: 0 15px;
      }
      
@@ -1335,7 +1339,7 @@ header {
          width: 15px; 
          height: 15px; 
          position: absolute;
-         bottom: -8px;
+         bottom: -9px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
@@ -1516,16 +1520,25 @@ header {
      }
      
      .title-second-line-row {
-         height: 64px;
+         height: 60px;
          width: 135px;
          margin-left: 5px;;
          background: url(../images/icon_title_bg_price.png) no-repeat;
-         background-position: 0 -6px;
-         background-size: 120px 70px;
+         background-position: 0px 3px;
+         background-size: 130px 45px;
      }
      
      .title-price {
          font-size: 32px; 
+     }
+
+     .title-second-line-row .container .title-price-column {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -12px;
      }
      
      .price-column-r1 {
@@ -1544,19 +1557,21 @@ header {
      .title-second-line-row 
      .container
      .title-price-previous {
-         position: absolute;
-         width: 62px;
-         height: 36px;
-         overflow: hidden;
-         bottom: -80px; 
-         right: -50px;
-         background: url("../images/img_title_bg_previous_price_tb.png") no-repeat;
-         background-size: contain;
+        position: absolute;
+        width: 62px;
+        height: 32px;
+        overflow: hidden;
+        bottom: 12px;
+        right: -47px;
+        background: url(../images/img_title_bg_previous_price_tb.png) no-repeat;
+        background-size: contain;
+        top: unset;
      }
      
      .title-price-previous span {
-         left: -5px;
-         top: -4px;
+         
+         left: -6px;
+         top: -3px;
          transform: rotate(-8deg);
          font-size: 6px;
       }
