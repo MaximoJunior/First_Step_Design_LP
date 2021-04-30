@@ -690,7 +690,7 @@ header {
     left: -70px;
     z-index: 5;
     border-radius: 5px;
-    background: url('../images/icon_welcome_element-arrow.svg') no-repeat;
+    background: url('../images/icon_welcome_element-arrow.png') no-repeat;
     -webkit-transform: rotate(8deg);
     transform: rotate(8deg)
 }
@@ -1109,7 +1109,7 @@ header {
         left: -140px;
         z-index: 5;
         border-radius: 5px;
-        background: url('../images/icon_welcome_element-arrow.svg') no-repeat;
+        background: url('../images/icon_welcome_element-arrow.png') no-repeat;
         background-size: contain;
         -webkit-transform: rotate(8deg);
         transform: rotate(8deg)
@@ -1154,8 +1154,9 @@ header {
         height: 130px;
         width: 320px;
         background: url(../images/icon_title_bg_price.png) no-repeat;
-        background-position: 0 -6px;
-        background-size: contain;
+        background-position: 0 5px;
+        background-size: 300px 100px;
+        margin-left: 5px;
     }
     
     .title-price {
@@ -1174,21 +1175,26 @@ header {
         font-family: var(--font-japanese-text);
         color: #00234b;
     }
+
+    .title-second-line-row .container .title-price-column {
+        margin-bottom: -30px;
+    }
     
     .title-second-line-row 
     .container
     .title-price-previous {
         width: 135px;
-        height: 78px;
-        bottom: 150px; 
-        right: -100px;
-        background: url("../images/img_title_bg_previous_price_tb.png") no-repeat;
+        height: 68px;
+        bottom: 29px;
+        right: -104px;
+        background: url(../images/img_title_bg_previous_price_tb.png) no-repeat;
         background-size: contain;
+        top: unset;
     }
     
     .title-price-previous span {
-        left: -8px;
-        top: -8px;
+        left: -14px;
+        top: -7px;
         transform: rotate(-8deg);
         font-size: 12px;
      }
@@ -1478,7 +1484,7 @@ header {
          left: -28px;
          z-index: 5;
          border-radius: 5px;
-         background: url('../images/icon_welcome_element-arrow.svg') no-repeat;
+         background: url('../images/icon_welcome_element-arrow.png') no-repeat;
          background-size: contain;
          -webkit-transform: rotate(8deg);
          transform: rotate(8deg)
