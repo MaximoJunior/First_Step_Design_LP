@@ -2886,8 +2886,8 @@ header {
     position: absolute;
     width: 360px;
     height: 400px;
-    top: 40px;
-    right: -200px;
+    top: 45px;
+    right: -230px;
 }
 
 .section-support
@@ -2937,8 +2937,8 @@ article:nth-child(even) .container-content {
 .section-container-article
 article:nth-child(even) .container-image {
     position: absolute;
-    top: 40px;
-    left: -200px;
+    top: 60px;
+    left: -210px;
 }
 
 /* Section SUPPORT Responsive */
@@ -3055,29 +3055,26 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     article 
-    .container-image img{
-        width: auto;
+    .container-image {
+        width: 248px;
         max-width: 248px;
-        height: auto;
+        height: 280px;
         max-height: 280px;
+        right: -100px;
     }
 
-    .section-support
+    /* .section-support
     .section-container-article
     article 
-    .container-image {
-        position: absolute;
-        top: unset;
-        bottom: 0;
-        right: -240px;
-    }
-
+    .container-image img{
+       
+    } */
     .section-support
     .section-container-article
     article 
     .container-image-especial {
         right: unset;
-        right: -125px;
+        right: -110px;
     }
 
     /* -- */
@@ -3231,19 +3228,11 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     article 
-    .container-image img{
-        width: auto;
-        max-width: 128px;
-        height: auto;
-        max-height: 143px;
-    }
-
-    .section-support
-    .section-container-article
-    article 
     .container-image {
+        width: 128px;
+        height: 143px;
         position: absolute;
-        top: -128px;
+        top: -100px;
         bottom: unset;
         right: unset;
         left: 50%;
@@ -3253,6 +3242,18 @@ article:nth-child(even) .container-image {
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
     }
+
+    /* .section-support
+    .section-container-article
+    article 
+    .container-image img{
+        width: auto;
+        max-width: 128px;
+        height: auto;
+        max-height: 143px;
+    } */
+
+
 
     .section-support
     .section-container-article
