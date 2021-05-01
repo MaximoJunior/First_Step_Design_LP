@@ -2884,8 +2884,18 @@ header {
  article 
 .container-image {
     position: absolute;
+    width: 360px;
+    height: 400px;
     top: 40px;
     right: -200px;
+}
+
+.section-support
+.section-container-article
+ article 
+.container-image img {
+    widtH: 100%;
+    height: auto;
 }
 
 /* .section-support
