@@ -3754,9 +3754,9 @@ article:nth-child(even) .container-image {
 
 .section-function-header .title {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 800;
     font-family: var(--font-japanese-text);
-    letter-spacing: 1px;
+    letter-spacing: 8px;
     text-align: center;
     color: #00234b;
 }
@@ -3774,7 +3774,7 @@ article:nth-child(even) .container-image {
     font-size: 18px;
     font-family: var(--font-japanese-text);
     font-weight: 500;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     line-height: 35px;
     color: #484848;
 }
@@ -3797,8 +3797,8 @@ article:nth-child(even) .container-image {
 .article-title {
      font-size: 20px;
      font-family: var(--font-japanese-text);
-     font-weight: 900;
-     letter-spacing: 1px;
+     font-weight: 800;
+     letter-spacing: 2px;
      line-height: 70px;
      text-align: center;
      color: #00234b;
@@ -3819,7 +3819,7 @@ article .article-paragraph{
     font-size: 16px;
      font-family: var(--font-japanese-text);
      font-weight: 500;
-     letter-spacing: 1px;
+     letter-spacing: 2px;
      line-height: 24px;
      color: #484848;
 }
@@ -3850,9 +3850,9 @@ article .article-paragraph{
      }
      
      .section-function-header .title {
-         font-size: 36px;
-         font-weight: 900;
-         letter-spacing: 4px;
+         font-size: 37px;
+         font-weight: 800;
+         letter-spacing: 12px;
      }
      
      .section-function
@@ -3867,7 +3867,7 @@ article .article-paragraph{
          font-size: 13px;
          font-family: var(--font-japanese-text);
          font-weight: 500;
-         letter-spacing: 1.5px;
+         letter-spacing: 3px;
          line-height: 26px;
          color: #484848;
      }
@@ -3885,8 +3885,8 @@ article .article-paragraph{
      .article-title {
           font-size: 14px;
           font-family: var(--font-japanese-text);
-          font-weight: 900;
-          letter-spacing: 1px;
+          font-weight: 800;
+          letter-spacing: 3px;
           line-height: 50.4px;
           text-align: center;
           color: #00234b;
@@ -3904,10 +3904,10 @@ article .article-paragraph{
      .section-function
      .section-container-article 
      article .article-paragraph{
-         font-size: 12px;
+          font-size: 12px;
           font-family: var(--font-japanese-text);
           font-weight: 500;
-          letter-spacing: 1px;
+          letter-spacing: 3px;
           line-height: 18px;
           color: #484848;
      }
@@ -3928,7 +3928,7 @@ article .article-paragraph{
      .section-function-header::after {
          width: 100%;
          height: 15px;
-         bottom: 0px;
+         bottom: 8px;
      }
      
      .section-function-header .title-container {
@@ -3939,8 +3939,9 @@ article .article-paragraph{
      
      .section-function-header .title {
          font-size: 17px;
-         font-weight: 900;
-         letter-spacing: 1px;
+         font-weight: 800;
+         letter-spacing: 8px;
+         text-align: center;
      }
      
      .section-function
@@ -3956,7 +3957,7 @@ article .article-paragraph{
          font-family: var(--font-japanese-text);
          font-weight: 500;
          text-align: left;
-         letter-spacing: 1.5px;
+         letter-spacing: 3px;
          line-height: 16px;
          color: #484848;
      }
@@ -3974,8 +3975,8 @@ article .article-paragraph{
      .article-title {
           font-size: 10px;
           font-family: var(--font-japanese-text);
-          font-weight: 900;
-          letter-spacing: 1px;
+          font-weight: 800;
+          letter-spacing: 2px;
           line-height: 50.4px;
           text-align: center;
           color: #00234b;
@@ -3996,7 +3997,7 @@ article .article-paragraph{
          font-size: 10px;
           font-family: var(--font-japanese-text);
           font-weight: 500;
-          letter-spacing: 1px;
+          letter-spacing: 2px;
           line-height: 15px;
           color: #484848;
      }
@@ -4026,9 +4027,9 @@ article .article-paragraph{
 .section-plan-header
 .title{
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 800;
     font-family: (--font-japanese-text);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: center;
     color: #00234b;
 }
@@ -4057,7 +4058,7 @@ article .article-paragraph{
 .section-plan-header
 .description-title {
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 800;
     font-family: var(--font-japanese-text);
     text-align: center;
     color: #00234b;
@@ -4185,10 +4186,10 @@ article .article-paragraph{
 .container-plan-detail 
 .article-header h3{
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 800;
     font-family: var(--font-japanese-text);
     padding: 40px 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
     color: #00234b;
 }
 
@@ -4232,7 +4233,7 @@ article .article-paragraph{
     font-family: var(--font-japanese-text);
     font-weight: 500;
     line-height: 40px;
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -4242,10 +4243,15 @@ article .article-paragraph{
 
 .section-plan
 .container-plan-detail article ul  li .icon{
-   width: 27px;
-   height: auto;
+   width: 24px;
+   height: 24px;
    margin-right: 15px;
    text-align: center;
+}
+.section-plan
+.container-plan-detail article ul  li .icon img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Responsive */
@@ -4262,6 +4268,7 @@ article .article-paragraph{
     .section-plan-header
     .title{
       font-size: 32px;
+      
     }
 
     .section-plan-header
@@ -4270,11 +4277,18 @@ article .article-paragraph{
         width: 155px;
         top: 0px;
     }   
+
+    .section-plan-header
+    .description-title-container::before {
+        bottom: 5px;
+    }
     
     .section-plan-header
     .description-title {
       font-size: 20px;
       line-height: 50px;
+      letter-spacing: 8px;
+      font-weight: 800;
     }
 
     .section-plan-header
@@ -4386,11 +4400,13 @@ article .article-paragraph{
     .container-plan-detail article ul  li {
         font-size: 12px;
         line-height: 28px;
+        margin: 6px 0;
     }    
 
     .section-plan
     .container-plan-detail article ul  li .icon{
-        height: 25px;
+        width: 16px;
+        height: 24px;
         margin-right: 10px;
     }    
 
@@ -4398,6 +4414,11 @@ article .article-paragraph{
 
 /* Phone */
 @media only screen and (max-width: 767px){ 
+
+    .section-plan{
+        padding: 40px 0;
+        padding-bottom: 60px;
+    } 
 
     .section-plan-header {
         width: 185px;
@@ -4441,7 +4462,7 @@ article .article-paragraph{
         width: 2px;
         height: 50px;
         left: 0px;
-        bottom: -20px;
+        bottom: -15px;
     }
     
     .section-plan-header
@@ -4481,8 +4502,8 @@ article .article-paragraph{
     .container-header-image-left {
         height: 100px;
         position: absolute;
-        left: -40px;
-        bottom: 40px;
+        left: -60px;
+        bottom: 20px;
     }
 
     .section-plan-header
@@ -4495,8 +4516,8 @@ article .article-paragraph{
     .container-header-image-right {
         height: 100px;
         position: absolute;
-        right: -40px;
-        bottom: 40px;
+        right: -60px;
+        bottom: 20px;
     }
 
     .section-plan-header
@@ -4573,6 +4594,8 @@ article .article-paragraph{
     .container-plan-detail article ul  li {
         font-size: 11px;
         line-height: 28px;
+        letter-spacing: 4px;
+        margin: 10px 0;
     }    
 
     .section-plan
