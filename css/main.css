@@ -393,14 +393,14 @@ header {
 .first-circle .text-english {
     font-size: 70px;
     font-family: var(--font-english-text);
-    font-weight: bold;
+    font-weight: 900;
    
 }
 
 .first-circle .text-japanese {
     font-size: 46px;
     font-family: var(--font-japanese-text);
-    font-weight: bold;
+    font-weight: 800;
     color: #00234b;
 }
 
@@ -432,6 +432,8 @@ header {
 .second-circle .square-text-circle {
     font-size: 32px;
     font-family: var(--font-japanese-text);
+    font-weight: 500;
+    padding: 0 15px;
     border-radius: 5px;
     background-color: #00234b;
     color: white;
@@ -472,7 +474,8 @@ header {
 .third-circle .circle-very-dark-text{
     font-size: 46px;
     font-family: var(--font-japanese-text);
-    font-weight: bold;
+    font-weight: 800;
+    letter-spacing: 1.5px;
 }
 
 .welcome-section-content-container {
@@ -607,6 +610,7 @@ header {
     position: relative;
     top: -15px;
     font-size: 60px;
+    font-weight: 800;
 }
 
 .container-subtitle
@@ -1761,8 +1765,8 @@ header {
     margin: auto;
     background-color: #f5e532;
     background-color: #f5e532;
-    border-radius: 16px;
-    border: 4px solid black;
+    border-radius: 20px;
+    border: 4px solid #00234b;
     margin-top: 180px;
     padding-top: 190px;
     padding-bottom: 90px;
@@ -1820,11 +1824,13 @@ header {
     padding: 50px 75px 0 0;
     font-size: 30px;
     font-family: var(--font-japanese-text);
-    letter-spacing: 2px;
+    font-weight: 500;
+    letter-spacing: 4px;
     color: white;
 }
 
 .section-nayami h3 span {
+    font-weight: 800;
     color: #f5e532;
 }
 
@@ -1886,7 +1892,7 @@ header {
 .container-article-content .article h4 {
     font-size: 20px;
     font-family: var(--font-japanese-text);
-    font-weight: 500;
+    font-weight: 800;
     padding: 18px 0;
     line-height: 30px;
     text-align: center;
@@ -1898,6 +1904,8 @@ header {
 .container-article-content .article p {
     font-size: 18px;
     font-family: var(--font-japanese-text);
+    font-weight: 500;
+    letter-spacing: 2px;
     line-height: 27px;
     color: #484848;
 }
@@ -2027,7 +2035,7 @@ header {
     line-height: 110px;
     font-size: 102.14px;
     font-family: var(--font-japanese-text);
-    font-weight: bolder;
+    font-weight: 800;
     -webkit-text-stroke: 3px #00234b;
     text-shadow: 2px 4px #F5E533;
     color: transparent;
@@ -2043,12 +2051,10 @@ header {
     word-wrap: break-word;
     line-height: 32px;
     margin-top: 5px;
-    /* position: absolute; */
-    /* right: 400px;
-    top: 42px; */
     font-size: 26px;
     font-family: var(--font-japanese-text);
-    font-weight: bolder;
+    font-weight: 500;
+    color: #00234b;
 }
 
 /* Responsive NAYAMI */
@@ -2751,8 +2757,8 @@ header {
 .section-support-header .large-title {
     font-family: var(--font-english-text);
     font-size: 180px;
-    font-weight: 800;
-    letter-spacing: 3px;
+    font-weight: 900;
+    letter-spacing: 0;
     margin-top: -25px;
     text-align: center;
     color: #fdf16f;
@@ -2762,16 +2768,16 @@ header {
     font-size: 36px;
     font-weight: 500;
     font-family: var(--font-japanese-text);
-    letter-spacing: 1.5px;
+    letter-spacing: 4px;
     text-align: center;
-    /* padding: 40px; */
+    color: #00234b;
 }
 
 .section-support-header .title {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 800;
     font-family: var(--font-japanese-text);
-    letter-spacing: 3px;
+    letter-spacing: 15px;
     text-align: center;
     color: white;
     -webkit-text-stroke: 2px #00234b;
@@ -2834,13 +2840,13 @@ header {
    width: 940px;
    margin-bottom: 100px !important;
    border: 4px solid #00234b;
-   border-radius: 8px;
+   border-radius: 20px;
    position: relative;
 }
 
 .section-container-article
 .article-header {
-  border-radius: 3px;
+  border-radius: 16px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: #004cbd;
@@ -2852,6 +2858,7 @@ header {
 .article-header h3{
     font-weight: 500;
     font-size: 30px;
+    font-family: var(--font-japanese-text);
     line-height: 45px;
     letter-spacing: 2px;
     padding: 30px 50px;
@@ -2865,8 +2872,8 @@ header {
     padding: 30px 50px;
     padding-right: 200px;
     background-color: #f4f4f4;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 
 .section-support
@@ -2875,6 +2882,7 @@ header {
    font-size: 18px;
    font-family: var(--font-japanese-text);
    font-weight: 500;
+   letter-spacing: 2px;
    line-height: 35px;
    margin-bottom: 20px;
 }
