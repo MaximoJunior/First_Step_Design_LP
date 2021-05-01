@@ -437,6 +437,7 @@ header {
     border-radius: 5px;
     background-color: #00234b;
     color: white;
+    margin-top: 10px;
 }
 
 .second-circle .circle-very-dark-text {
