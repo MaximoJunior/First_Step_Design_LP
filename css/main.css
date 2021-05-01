@@ -3048,7 +3048,7 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     .container-content {
-        padding: 15px 10px;
+        padding: 15px 25px;
         padding-right: 160px;
     }
 
@@ -3106,7 +3106,7 @@ article:nth-child(even) .container-image {
     .section-container-article
     article:nth-child(even) .container-content {
         padding-right:  10px;
-        padding-left: 160px;
+        padding-left: 175px;
     }
 
     .section-support
