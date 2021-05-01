@@ -2141,6 +2141,7 @@ header {
     .container-article-header{
        width: 590px;
        height: 130px;
+       justify-content: flex-start;
        position: absolute;
        background-size: contain;
        top: -40px;
@@ -2148,7 +2149,7 @@ header {
     
     .section-nayami h3 {
         padding: 27px 45px 0 0;
-        font-size: 12px;
+        font-size: 16px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
         letter-spacing: 2px;
@@ -3198,9 +3199,18 @@ article:nth-child(even) .container-image {
     .section-container-article
     article {
         width: 100%;
-        margin-bottom: 165px !important;
-        border: 4px solid #00234b;
+        margin-bottom: 130px !important;
+        border: 2px solid #00234b;
+        border-radius: 10px;
     }
+
+    .section-container-article
+   .article-header {
+      border-radius: 7px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+   }
+    
 
     .section-support
     .section-container-article
@@ -3221,8 +3231,9 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     .container-content {
-        
         padding: 20px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
     }
 
     .section-support
@@ -3346,9 +3357,9 @@ article:nth-child(even) .container-image {
 
 .section-works-header .title {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 800;
     font-family: var(--font-japanese-text);
-    letter-spacing: 4px;
+    letter-spacing: 10px;
     text-align: center;
     color: #f5e532;
     -webkit-text-stroke: 2px #00234b;
@@ -3359,7 +3370,7 @@ article:nth-child(even) .container-image {
     margin-top: -48px;
     font-family: var(--font-english-text);
     font-size: 180px;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 3px;
     text-align: center;
     color: #e2f0fa;
@@ -3375,7 +3386,6 @@ article:nth-child(even) .container-image {
     position: relative;
     background: white;
     border-radius: 16px;
-    border: 3px solid #00234b;
 }
 
 .section-works
@@ -3429,6 +3439,8 @@ article:nth-child(even) .container-image {
     z-index: 5;
     border-radius: 16px;
     background-color: white;
+    border-radius: 16px;
+    border: 3px solid #00234b;
 }
 
 .section-works
@@ -3466,7 +3478,7 @@ article:nth-child(even) .container-image {
     font-size: 16px;
     font-weight: 800;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     padding: 20px 0;
     color: #00234b;
 }
@@ -3529,8 +3541,8 @@ article:nth-child(even) .container-image {
 
     .section-works-header .title {
         font-size: 36px;
-        font-weight: 900;
-        letter-spacing: 4px;
+        font-weight: 800;
+        letter-spacing: 8px;
     }
 
     .section-works-header
@@ -3543,6 +3555,19 @@ article:nth-child(even) .container-image {
         margin-top: 0;
         font-family: var(--font-english-text);
         font-size: 92px;
+    }
+
+    .section-works
+    .container-content
+    .container-left-image {
+        left: -60px;
+    }    
+
+    .section-works
+    .container-content
+    .container-right-image{
+        width: 230px;
+        right: -120px;
     }
 
     .section-works
@@ -3586,7 +3611,7 @@ article:nth-child(even) .container-image {
     
     .section-works-header .title {
         font-size: 17px;
-        font-weight: 900;
+        font-weight: 800;
         letter-spacing: 4px;
         -webkit-text-stroke: 1px #00234b;
         text-stroke: 1px #00234b;
@@ -3602,13 +3627,13 @@ article:nth-child(even) .container-image {
         margin-top: 0;
         font-family: var(--font-english-text);
         font-size: 46px;
-        font-weight: 600;
+        font-weight: 900;
     }
 
     .section-works
     .container-content{
         width: 300px;
-        margin-top: 60px;
+        margin-top: 85px;
     }
 
     .section-works
@@ -3625,17 +3650,18 @@ article:nth-child(even) .container-image {
     .section-works
     .container-content
     .container-left-image {
-      width: 64px;
-      height: 140px;
-      left: -15px;
+      width: 121px;
+      height: 108px;
+      left: -25px;
     }
 
     .section-works
     .container-content
     .container-right-image {
-        width: 121px;
-        height: 108px;
-      right: -15px;
+      width: 64px;
+      height: 140px;
+      top: -115px;
+      right: 0px;
     }
 
     .section-works
@@ -3673,8 +3699,8 @@ article:nth-child(even) .container-image {
     .section-works
     .container-bottom-images {
         position: absolute;
-        max-width: 177px;
-        max-height: 149px;
+        width: 177px;
+        height: 149px;
         z-index: 5;
         left: 50%;
         bottom: 0;
