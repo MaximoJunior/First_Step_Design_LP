@@ -3319,6 +3319,7 @@ article:nth-child(even) .container-image {
     position: relative;
     background: url('../images/img_works_bg.png') repeat-y;
     background-size: contain;
+    overflow: hidden;
 }
 
 .section-works-header {
@@ -3390,10 +3391,33 @@ article:nth-child(even) .container-image {
 
 .section-works
 .container-content
+.container-left-image {
+    width: 230px;
+    height: 207px;
+}
+
+.section-works
+.container-content
+.container-left-image img {
+    width: auto;
+    height: 100%;
+}
+
+.section-works
+.container-content
 .container-right-image{
+    width: 121px;
+    height: 262px;
     position: absolute;
     z-index: 4;
     right: 0;
+}
+
+.section-works
+.container-content
+.container-right-image img {
+    width: auto;
+    height: 100%;
 }
 
 .section-works
@@ -3472,11 +3496,19 @@ article:nth-child(even) .container-image {
 
 .section-works
 .container-bottom-images {
+    width: 264px;
+    height: 224px;
     position: absolute;
     z-index: 5;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+}
+
+.section-works
+.container-bottom-images img {
+    width: auto;
+    height: 100%;
 }
 
 /* Responsive  */
@@ -3516,6 +3548,7 @@ article:nth-child(even) .container-image {
     .section-works
     .container-content{
         width: 710px;
+        margin-top: 110px;
     }
 
     .section-works
@@ -3592,12 +3625,16 @@ article:nth-child(even) .container-image {
     .section-works
     .container-content
     .container-left-image {
+      width: 64px;
+      height: 140px;
       left: -15px;
     }
 
     .section-works
     .container-content
     .container-right-image {
+        width: 121px;
+        height: 108px;
       right: -15px;
     }
 
@@ -3608,9 +3645,7 @@ article:nth-child(even) .container-image {
     .container-content
     .container-right-image img {
         width: auto;
-        max-width: 121px;
-        height: auto;
-        max-height: 140px;
+        height: 100%;
     }
 
     .section-works
@@ -3638,6 +3673,8 @@ article:nth-child(even) .container-image {
     .section-works
     .container-bottom-images {
         position: absolute;
+        max-width: 177px;
+        max-height: 149px;
         z-index: 5;
         left: 50%;
         bottom: 0;
@@ -3647,9 +3684,7 @@ article:nth-child(even) .container-image {
    .section-works
     .container-bottom-images img {
         width: auto;
-        height: auto;
-        max-width: 177px;
-        max-height: 149px;
+        height: 100%;
     }
 
     
