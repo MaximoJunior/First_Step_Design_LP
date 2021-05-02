@@ -5377,8 +5377,13 @@ article
 .section-flow
 .container-article
 .article-header img {
+    display: block;
+    margin: 0;
+    margin: auto;
     position: relative;
-    bottom: 0;
+    width: auto;
+    height: 125px;
+    /* bottom: 0; */
 }
 
 
@@ -5696,7 +5701,10 @@ article
     .section-flow
     .container-article
     .article-header img {
-        margin: 0;
+        display: block;
+        width: auto;
+        height: 116px;
+        margin: auto;
         text-align: center;
     }
 
