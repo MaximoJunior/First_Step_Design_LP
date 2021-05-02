@@ -5182,7 +5182,7 @@ article .article-paragraph{
     background-size: contain;
     width: 100%;
     height: 200px;
-    bottom: -180px;
+    bottom: -120px;
 }
 
 .section-flow-header
@@ -5205,7 +5205,7 @@ article .article-paragraph{
 .title-container {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 70px;
     text-align: center;
 }
 
@@ -5214,7 +5214,7 @@ article .article-paragraph{
     font-size: 60px;
     font-weight: 900;
     font-family: var(--font-japanese-text);
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     color: #ffffff;
     -webkit-text-stroke: 2px #00234b;
     text-stroke: 2px #00234b;
@@ -5226,7 +5226,7 @@ article .article-paragraph{
     font-size: 36px;
     font-weight: 500;
     font-family: var(--font-japanese-text);
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
     color: #00234b;
 }
 
@@ -5235,7 +5235,7 @@ article .article-paragraph{
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 100px;
+    top: 70px;
 }
 .section-flow-header
 .image-container img {
@@ -5248,12 +5248,13 @@ article .article-paragraph{
 .image-description {
     position: relative;
     left: 50%;
+    margin-top: -25px;
     transform: translateX(-50%);
     width: 410px;
     font-size: 28px;
     font-weight: 500;
     font-family: var(--font-japanese-text);
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     color: #ffffff;
     border-radius: 4px;
     background-color: #004cbd;
@@ -5265,7 +5266,7 @@ article .article-paragraph{
     width: 1150px;
     height: auto;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .section-flow
@@ -5396,7 +5397,7 @@ article
 .article-content-container p {
     font-size: 17px;
     font-family: var(--font-japanese-text);
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     line-height: 34px;
     margin-bottom: 45px;
     font-weight: 500;
@@ -5417,7 +5418,7 @@ article
     }
 
     .section-flow-header::before {
-        bottom: -125px;
+        bottom: -100px;
     }
 
     .section-flow-header
@@ -5438,13 +5439,13 @@ article
 
     .section-flow-header
     .title-container {
-        bottom: 70px;
+        bottom: 90px;
     }
   
     .section-flow-header
     .title { 
         font-size: 36.14px;
-        letter-spacing: 3px;
+        letter-spacing: 20px;
     }
 
     .section-flow-header
@@ -5462,8 +5463,9 @@ article
     .image-container
     .image-description {
         width: 320px;
+        margin-top: -20px;
         font-size: 16px;
-        letter-spacing: 1px;
+        letter-spacing: 8px;
         padding: 10px;
     }
 
@@ -5471,7 +5473,7 @@ article
     .section-flow
     .container-article { 
         width: 668px;
-        margin-top: 60px;
+        margin-top: 20px;
     }  
     
     .section-flow
@@ -5508,6 +5510,7 @@ article
     article .step-number span{
         font-size: 10px;
         letter-spacing: 1.5px;
+        font-weight: 900;
     }   
     
     .section-flow
@@ -5522,6 +5525,8 @@ article
     .container-article
     .article-header h3 {
         font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 500;
     }  
     
     .section-flow
@@ -5551,8 +5556,9 @@ article
     .container-article
     .article-content-container p {
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 24px;
+        letter-spacing: 2px;
     }    
 
 }
@@ -5569,7 +5575,7 @@ article
     }
 
     .section-flow-header::before {
-        bottom: -160px;
+        bottom: -140px;
     }
 
     .section-flow-header
@@ -5580,30 +5586,31 @@ article
     .section-flow-header
     .large-title { 
         font-size: 46px;
-        letter-spacing: 0;
     }
 
     .section-flow-header
     .large-title-description {
         font-size: 12px;
+        margin: 5px 0;
     }
 
     .section-flow-header
     .title-container {
-        bottom: 40px;
+        bottom: 55px;
     }
   
     .section-flow-header
     .title { 
-        font-size: 17px;
-        letter-spacing: 1px;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 8px;
         -webkit-text-stroke: 1px #00234b;
         text-stroke: 1px #00234b;
     }
 
     .section-flow-header
     .image-container {
-        top: 25px;
+        top: 10px;
     }
 
     .section-flow-header
@@ -5616,9 +5623,10 @@ article
     .image-container
     .image-description {
         width: 260px;
+        margin-top: -15px;
+        letter-spacing: 6px;
         font-size: 12px;
-        letter-spacing: 1px;
-        padding: 10px;
+        padding: 10px 0px;
     }   
     
     /* ----- */
@@ -5626,7 +5634,7 @@ article
     .section-flow
     .container-article { 
         width: 300px;
-        margin-top: 20px;
+        margin-top: 0px;
     }  
 
     .section-flow
