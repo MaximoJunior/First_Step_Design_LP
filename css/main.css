@@ -306,7 +306,9 @@ header {
     position: relative;
     width: 100%;
     height: 1280px;
-    background: url('../images/top-BG.png');
+    background: url('../images/top-BG.png') repeat;
+    background-size: cover;
+    animation: animationBackground  linear 25s infinite ; 
 }
 
 .welcome-section
@@ -2732,8 +2734,10 @@ header {
 /*===== SECTION SUPPORT ======= */
 
 .section-support {
-    background: url('../images/img_support_section_bg.png') repeat-y;
-    background-size: auto;
+    background: url('../images/img_support_section_bg.png') repeat;
+    background-size: cover;
+    background-size: cover;
+    animation: animationBackground  linear 25s infinite ; 
     padding-top: 130px;
     padding-bottom: 130px;
     overflow: hidden !important;
@@ -3330,8 +3334,9 @@ article:nth-child(even) .container-image {
     width: 100%;
     height: 740px;
     position: relative;
-    background: url('../images/img_works_bg.png') repeat-y;
-    background-size: contain;
+    background: url('../images/img_works_bg.png') repeat;
+    background-size: cover;
+    animation: animationBackground  linear 25s infinite ; 
     overflow: hidden;
 }
 
@@ -3722,7 +3727,9 @@ article:nth-child(even) .container-image {
 
 /*===== Wrapper white Section ======= */
 .wraper-white-section {
-   background: url('../images/img_works_description_bg.png') repeat-y;
+   background: url('../images/img_works_description_bg.png') repeat;
+   background-size: cover;
+   animation: animationBackground  linear 25s infinite ; 
 }
 
 
@@ -5163,7 +5170,9 @@ article .article-paragraph{
 /* === SECTION FLOW === */
 
 .section-flow {
-    background: url('../images/img_flow_bg.png');
+    background: url('../images/img_flow_bg.png') repeat;
+    background-size: cover;
+    animation: animationBackground  linear 25s infinite ; 
     padding-bottom: 150px;
 }
 
@@ -6696,4 +6705,13 @@ a.container-link-phone {
  }
 
 
+ /* ANIMATIONS */
 
+ @keyframes animationBackground {
+    from{
+        background-position: 0vw 0vh;
+    }
+    to{
+        background-position: 100vw -100vh;
+    }
+}
