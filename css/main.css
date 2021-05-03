@@ -1291,7 +1291,7 @@ header {
      
      .container-circle {
          
-        max-width: 325px;
+        max-width: 330px;
      }
      
      .container-circle .circle {
@@ -1310,34 +1310,36 @@ header {
      }
      
      .circle-dark-text {
-         font-size: 7px;
+        font-size: 10px;
+        letter-spacing: 1.5px;
      }
      
      .first-circle {
          margin-top: 24px;
      }
      .first-circle::after {
-         width: 15px; 
-         height: 15px; 
-         bottom: 3px;
+        width: 10px;
+        height: 10px;
+        bottom: 8px;
          right: 6px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         -webkit-transform: rotate(1deg) skew(20deg, 20deg);
-         -moz-transform: rotate(1deg) skew(20deg, 20deg);
-         -ms-transform: rotate(1deg) skew(20deg, 20deg);
-         -o-transform: rotate(1deg) skew(20deg, 20deg);
-         transform: rotate(1deg) skew(20deg, 20deg);
+         border-radius: 0 0 3px 0;
+         -webkit-transform: rotate(1deg) skew(22deg, 22deg);
+         -moz-transform: rotate(1deg) skew(22deg, 22deg);
+         -ms-transform: rotate(1deg) skew(22deg, 22deg);
+         -o-transform: rotate(1deg) skew(22deg, 22deg);
+         transform: rotate(1deg) skew(22deg, 22deg);
      }
      
      .first-circle .text-english {
-         font-size: 11px;
-         font-weight: bolder;
+        font-size: 14px;
+        font-weight: 800;
      }
      
      .first-circle .text-japanese {
-         font-size: 11px;    
+         font-size: 13px;    
      }
      
      .second-circle {
@@ -1350,28 +1352,33 @@ header {
      }
      
      .second-circle::after {
-         width: 15px; 
-         height: 15px; 
+        width: 10px;
+        height: 10px;
          position: absolute;
-         bottom: -9px;
+         bottom: -7px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         -webkit-transform: rotate(45deg) skew(20deg, 20deg);
-         -moz-transform: rotate(45deg) skew(20deg, 20deg);
-         -ms-transform: rotate(45deg) skew(20deg, 20deg);
-         -o-transform: rotate(45deg) skew(20deg, 20deg);
-         transform: rotate(45deg) skew(20deg, 20deg);
+         border-radius: 0 0 3px 0;
+         -webkit-transform: rotate(45deg) skew(22deg, 22deg);
+         -moz-transform: rotate(45deg) skew(22deg, 22deg);
+         -ms-transform: rotate(45deg) skew(22deg, 22deg);
+         -o-transform: rotate(45deg) skew(22deg, 22deg);
+         transform: rotate(45deg) skew(22deg, 22deg);
      }
      
      .second-circle .square-text-circle {
-         font-size: 7px;
+         font-size: 10px;   
          font-weight: 500;
-         padding: 3px 6px;
+         border-radius: 3px;
+         padding: 1px 3px;
+         margin: 0;
      }
      
      .second-circle .circle-very-dark-text {
-         font-size: 11px;  
+         font-size: 14px;  
+         font-weight: 800;
+         letter-spacing: 1.5px;
      }
      
      .third-circle {
@@ -1379,22 +1386,23 @@ header {
      }
      
      .third-circle::after {
-        width: 15px; 
-        height: 15px; 
-        bottom: 0px;
+        width: 10px;
+        height: 10px;
+        bottom: 4px;
          left: 10px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         -webkit-transform: rotate(82deg) skew(20deg, 20deg);
-         -moz-transform: rotate(82deg) skew(20deg, 20deg);
-         -ms-transform: rotate(82deg) skew(20deg, 20deg);
-         -o-transform: rotate(82deg) skew(20deg, 20deg);
-         transform: rotate(82deg) skew(20deg, 20deg);
+         border-radius: 100px 0 3px 0;
+         -webkit-transform: rotate(82deg) skew(22deg, 22deg);
+         -moz-transform: rotate(82deg) skew(22deg, 22deg);
+         -ms-transform: rotate(82deg) skew(22deg, 22deg);
+         -o-transform: rotate(82deg) skew(22deg, 22deg);
+         transform: rotate(84deg) skew(22deg, 22deg);
      }
      
      .third-circle .circle-very-dark-text{
-         font-size: 11px;
+         font-size: 14px;
      }
      
      .welcome-section
@@ -1420,7 +1428,7 @@ header {
      .container-subtitle
      .subtitle
      .first-text {
-         font-size: 9px;
+         font-size: 11px;
          font-weight: 500;
          letter-spacing: 2px;
      }
@@ -1429,14 +1437,15 @@ header {
      .subtitle
      .second-text {
          top: -4px;
-         font-size: 15px;
+         font-size: 18px;
          font-weight: 800;
+         letter-spacing: 3px;
      }
      
      .container-subtitle
      .subtitle
      .second-text .single-character {
-         font-size: 10px;
+         font-size: 13px;
      }
      
      .container-subtitle .subtitle-line-decoration {
@@ -1489,7 +1498,7 @@ header {
          content: "";
          position: absolute;
          bottom: -48px;
-         left: -28px;
+         left: -10px;
          z-index: 5;
          border-radius: 5px;
          background: url('../images/icon_welcome_element-arrow.png') no-repeat;
@@ -1523,7 +1532,7 @@ header {
       */
      
      .title-yellow-text {
-         font-size: 42px;
+         font-size: 48px;
          -webkit-text-stroke: 2px #00234b;
          text-shadow: 0px 2px #F5E533;
          font-weight: 900;
@@ -1534,16 +1543,16 @@ header {
      }
      
      .title-second-line-row {
-         height: 60px;
-         width: 135px;
+         height: 70px;
+         width: 185px;
          margin-left: 5px;;
          background: url(../images/icon_title_bg_price.png) no-repeat;
-         background-position: 0px 3px;
-         background-size: 130px 45px;
+         background-position: 0px -1px;
+         background-size: 180px 60px;
      }
      
      .title-price {
-         font-size: 32px; 
+         font-size: 46px; 
      }
 
      .title-second-line-row .container .title-price-column {
@@ -1552,19 +1561,22 @@ header {
         display: -ms-flexbox;
         display: flex;
         flex-direction: column;
-        margin-bottom: -12px;
+        margin-left: 1.5px;
+        margin-bottom: -2px;
      }
      
      .price-column-r1 {
-         font-size: 6px;
+         font-size: 7px;
+         font-weight: 500;
      }
      
      .price-column-r2 {
          position: relative;
-         top: -5px;
+         top: 0;
          padding: 0;
-         font-size: 12px;
+         font-size: 14px;
          font-family: var(--font-japanese-text);
+         font-weight: 500;
          color: #00234b;
      }
      
@@ -1572,11 +1584,11 @@ header {
      .container
      .title-price-previous {
         position: absolute;
-        width: 62px;
-        height: 32px;
+        width: 90px;
+        height: 40px;
         overflow: hidden;
-        bottom: 12px;
-        right: -47px;
+        bottom: 18px;
+        right: -72px;
         background: url(../images/img_title_bg_previous_price_tb.png) no-repeat;
         background-size: contain;
         top: unset;
@@ -1584,10 +1596,10 @@ header {
      
      .title-price-previous span {
          
-         left: -6px;
+         left: -15px;
          top: -3px;
          transform: rotate(-8deg);
-         font-size: 6px;
+         font-size: 8px;
       }
      
      .title-price-previous .price-previous-firts-text {
@@ -1596,7 +1608,8 @@ header {
 
      .title-price-previous
     .price-previous-second-text {
-      letter-spacing: 1px;
+     margin-top: -4px;
+     letter-spacing: 1px;
     text-decoration-line: line-through;
     text-decoration-color: #dd2a55;
     -webkit-text-decoration-thickness: 1px;
