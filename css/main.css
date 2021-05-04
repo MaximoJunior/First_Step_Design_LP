@@ -2418,28 +2418,33 @@ header {
     } 
 
     .section-nayami-header {
-        width: 260px;
-        max-width: 260px;
+        width: 100%;
+        max-width: unset;
         padding-top: 0px;
         margin-top: 0px;
+        position: relative;
     }
 
     .section-nayami-header::before {
-        width: 75%;
+        width: 95%;
         height: 56px;
+        max-height: 22px;
         content: "";
         display: block;
         position: absolute;
-        bottom: -40px;
+        left: 50%;
+        bottom: 0px;
         background: url(../images/img_nayami_header_line.png) no-repeat;
         background-size: contain;
+        background-position: center top;
+        transform: translateX(-50%);
     
     }
 
    .section-nayami-header
    .section-title-description-bg{
-        font-size: 46px;
-        font-weight: bold;
+        font-size: 70px;
+        font-weight: 900;
         letter-spacing: 3px;
     }
 
@@ -2453,25 +2458,25 @@ header {
     .section-title-description {
         width: 100%;
         height: auto;
-        font-size: 8px;
-        letter-spacing: 1.5px;
-        font-weight: 900;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 800;
         position: absolute;
         bottom: 10px;
     }
 
     .section-nayami-header
     .section-title {
-        font-size: 10px;
-        font-weight: 900;
-        letter-spacing: 1.5px;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 4px;
         padding-bottom: 30px;
     }
 
     .section-nayami-header
     .section-title span {
-        font-size: 8px;
-        font-weight: 900;
+        font-size: 14px;
+        font-weight: 800;
     }
 
     .section-nayami
@@ -2505,7 +2510,7 @@ header {
         font-weight: 500;
         letter-spacing: 2px;
         position: absolute;
-        width: 325px;
+        width: 320px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2582,7 +2587,7 @@ header {
    .container-article-content .article h4 {
         padding: 5px 0 10px 0;
         line-height: 21.6px;
-        font-size: 20px;
+        font-size: 18px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         text-align: center;
@@ -2591,10 +2596,10 @@ header {
 
     .section-nayami
     .container-article-content .article p {
-        font-size: 17px;
+        font-size: 16px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
-        line-height: 20px;
+        line-height: 20px !important;
         text-align: justify;
     }
 
@@ -2628,16 +2633,16 @@ header {
 
     .section-nayami .bottom-container{
         width: 300px;
-        height: 308px;
+        height: 340px;
         margin: auto;
         /* position: relative; */
     }
 
     .section-nayami .bottom-container .circle{
-        width: 110px;
-        max-width: 110px;
-        height: 110px;
-        max-height: 110px;
+        width: 140px;
+        max-width: 140px;
+        height: 140px;
+        max-height: 140px;
         position: absolute;
         left: 10px;
         top: -25px;
@@ -2655,15 +2660,15 @@ header {
 
     .section-nayami
     .bottom-container .circle span {
-        font-size: 7px;
+        font-size: 13px;
         font-weight: 500;
         letter-spacing: 1px;
     }
 
     .section-nayami
     .bottom-container .circle span.especial-text {
-        font-size: 11px;
-        font-weight: 900;
+        font-size: 16px;
+        font-weight: 800;
     }
 
 
@@ -2672,7 +2677,7 @@ header {
         height: 20px; 
         position: absolute;
         z-index: 1;
-        bottom: 2px;
+        bottom: 8px;
         right: 6px;
         content: "";
         display: block;
@@ -2730,7 +2735,7 @@ header {
         word-wrap: break-word;
         letter-spacing: 1.5px;
         line-height: 30px;
-        font-size: 23px;
+        font-size: 30px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         -webkit-text-stroke: 1px #00234b;
@@ -2749,7 +2754,7 @@ header {
         /* position: absolute; */
         /* right: 400px;
         top: 42px; */
-        font-size: 12px;
+        font-size: 14px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
     }
