@@ -2476,18 +2476,20 @@ header {
 
     .section-nayami
     .container-article {
-        width: 300px;
-        max-width: 300px;
+        width: auto;
+        max-width: unset;
+        margin: 0 15px;
         margin-top: 130px;
         padding-top: 75px;
         padding-bottom: 60px;
         border: 2px solid #00234b;
+        /* overflow: hidden; */
     }
 
     /* --- */
     .section-nayami
     .container-article-header{
-       width: 260px;
+       width: 90%;
        height: 90px;
        position: absolute;
        background-size: 100% 100%;
@@ -2498,12 +2500,12 @@ header {
         padding: 20px 0;
         text-align: center;
         line-height: 21.49px;
-        font-size: 9px;
+        font-size: 13px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
         letter-spacing: 2px;
         position: absolute;
-        width: 240px;
+        width: 325px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2513,6 +2515,7 @@ header {
     .container-image{
        position: relative;
        width: 100%;
+       max-width: unset;
        height: 0;
     }
 
@@ -2524,13 +2527,14 @@ header {
         height: 118px;
         max-height: 118px;
         position: absolute;
-        left: 25%;
+        left: 50%;
+        right: unset;
         top: -100px;
-        /* -webkit-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
-        transform: translateX(-50%); */
+        transform: translateX(-50%); 
     }
 
     .section-nayami
@@ -2548,11 +2552,20 @@ header {
     .section-nayami
     .container-article
     .container-article-content{
-        width: 230px;
+        width: 100%;
+        max-width: unset;
+        margin: 0;
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 85%;
         grid-template-rows: auto;
-        
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .section-nayami
+    .container-article-content .article {
+        position: relative;
+        padding: 0 20px;
     }
 
     .section-nayami
@@ -2567,9 +2580,9 @@ header {
 
     .section-nayami
    .container-article-content .article h4 {
-        padding: 20px 0;
+        padding: 5px 0 10px 0;
         line-height: 21.6px;
-        font-size: 13px;
+        font-size: 20px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         text-align: center;
@@ -2578,10 +2591,11 @@ header {
 
     .section-nayami
     .container-article-content .article p {
-        font-size: 11px;
+        font-size: 17px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
-        line-height: 19.43px;
+        line-height: 20px;
+        text-align: justify;
     }
 
     .section-nayami
@@ -2592,7 +2606,7 @@ header {
         height: 45px;
         position:absolute;
         left: -10px;
-        top: 0;
+        top: 12px;
         text-align: center;
         font-size: 12px;
         line-height: 11.28px;
@@ -2606,7 +2620,7 @@ header {
     .section-nayami
     .container-article-content .article
     .step-number span {
-        font-size: 12px;
+        font-size: 17px;
     }
 
 
