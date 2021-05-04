@@ -2485,7 +2485,7 @@ header {
         width: auto;
         max-width: unset;
         margin: 0 15px;
-        margin-top: 140px;
+        margin-top: 160px;
         padding-top: 75px;
         padding-bottom: 60px;
         border: 2px solid #00234b;
@@ -2506,7 +2506,7 @@ header {
         padding: 20px 0;
         text-align: center;
         line-height: 21.49px;
-        font-size: 13px;
+        font-size: 14.5px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
         letter-spacing: 2px;
@@ -2528,14 +2528,14 @@ header {
     .section-nayami
     .container-article-header
     .container-image img {
-        width: 159px;
-        max-width: 159px;
-        height: 118px;
-        max-height: 118px;
+        width: auto;
+        max-width: unset;
+        height: 145px;
+        max-height: 145px;
         position: absolute;
         left: 50%;
         right: unset;
-        top: -100px;
+        top: -125px;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -2543,7 +2543,7 @@ header {
         transform: translateX(-50%); 
     }
 
-    .section-nayami
+    /* .section-nayami
     .container-article-header
     .container-image .img_bg {
         position: absolute;
@@ -2553,7 +2553,7 @@ header {
         height: 118px;
         max-height: 118px;
         
-    }
+    } */
 
     .section-nayami
     .container-article
@@ -2587,7 +2587,7 @@ header {
     .section-nayami
    .container-article-content .article h4 {
         padding: 5px 0 10px 0;
-        line-height: 21.6px;
+        line-height: 22px;
         font-size: 18px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
@@ -2600,7 +2600,7 @@ header {
         font-size: 16px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
-        line-height: 20px !important;
+        line-height: 25px;
         text-align: justify;
     }
 
@@ -3165,18 +3165,28 @@ article:nth-child(even) .container-image {
 @media screen and (max-width: 767px){
 
     .section-support {
-        padding-top: 62px;
+        padding-top: 56px;
         padding-bottom: 0px !important;
     }
 
 
     .section-support-header {
-        width: 300px;
+        width: 100%;
         height: 125px;
     }
 
     .section-support-header::after {
-        background-size: contain;
+       
+        position: absolute;
+    display: block;
+    content: "";
+    width: 318px;
+    height: 50px;
+    bottom: -50px;
+    left: 50%;
+    background: url(../images/img_suport_header_bottom_line.png) no-repeat;
+    background-size: contain;
+    transform: translateX(-50%);
     }
 
     .section-support-header .large-title-container{
@@ -3184,25 +3194,25 @@ article:nth-child(even) .container-image {
     }
 
     .section-support-header .large-title {
-        font-size: 46px;
-        font-weight: 600;
+        font-size: 70px;
+        font-weight: 900;
         margin: 0;
         top: unset;
     }
 
     .section-support-header .large-title-description {
-        font-size: 13px;
+        font-size: 18px;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         text-align: center;
         padding: 0px;
     }
 
     .section-support-header .title {
-        font-size: 17px;
+        font-size: 25px;
         font-weight: 900;
         font-family: var(--font-japanese-text);
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         text-align: center;
         color: white;
         -webkit-text-stroke: 1px #00234b;
@@ -3213,15 +3223,15 @@ article:nth-child(even) .container-image {
     .section-support-header .title-description {
         font-family: var(--font-japanese-text);
         font-weight: 500;
-        font-size: 12px;
+        font-size: 18px;
         color: #00234b;
         text-align: center;
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
         padding-bottom: 15px;
     }
 
     .section-support-header .title-container { 
-        bottom: 25px;
+        bottom: -22px;
     }
 
     .section-support-header .large-title-container {
@@ -3230,8 +3240,10 @@ article:nth-child(even) .container-image {
 
     .section-support
     .section-container-article { 
-        width: 300px;
-        margin-top: 120px !important;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        margin-top: 140px !important;
     }
 
     .section-support
@@ -3260,11 +3272,11 @@ article:nth-child(even) .container-image {
     .section-container-article
     .article-header h3{
         font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
-        letter-spacing: 1.5px;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 2px;
         text-align: center;
-        padding: 20px;
+        padding: 20px 15px;
     }
 
     .section-support
@@ -3278,9 +3290,9 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     article p {
-        font-size: 11px;
-        letter-spacing: 1.5px;
-        line-height: 16px; 
+        font-size: 16px;
+        letter-spacing: 2.5px;
+        line-height: 25px; 
         margin-bottom: 20px;
     }
 
@@ -3288,10 +3300,10 @@ article:nth-child(even) .container-image {
     .section-container-article
     article 
     .container-image {
-        width: 128px;
+        width: 160px;
         height: 143px;
         position: absolute;
-        top: -100px;
+        top: -120px;
         bottom: unset;
         right: unset;
         left: 50%;
@@ -3346,7 +3358,7 @@ article:nth-child(even) .container-image {
     .section-container-article
     article:nth-child(even) .container-image {
         position: absolute;
-        top: -100px;
+        top: -120px;
         bottom: unset;
         right: unset;
         left: 50%;
