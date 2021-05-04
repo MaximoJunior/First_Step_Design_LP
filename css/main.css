@@ -2427,8 +2427,9 @@ header {
     }
 
     .section-nayami-header::before {
-        width: 95%;
-        height: 56px;
+        width: 98%;
+        max-width: 313.59px;
+        height: 22px;
         max-height: 22px;
         content: "";
         display: block;
@@ -2470,7 +2471,7 @@ header {
     .section-title {
         font-size: 18px;
         font-weight: 800;
-        letter-spacing: 4px;
+        letter-spacing: 1.27px;
         padding-bottom: 30px;
     }
 
@@ -3215,7 +3216,7 @@ article:nth-child(even) .container-image {
         letter-spacing: 4px;
         text-align: center;
         color: white;
-        -webkit-text-stroke: 1px #00234b;
+        -webkit-text-stroke: 2px #00234b;
         text-stroke: 1px #00234b;
        
     }
@@ -3232,10 +3233,6 @@ article:nth-child(even) .container-image {
 
     .section-support-header .title-container { 
         bottom: -22px;
-    }
-
-    .section-support-header .large-title-container {
-
     }
 
     .section-support
@@ -3269,14 +3266,17 @@ article:nth-child(even) .container-image {
         margin-bottom: 60px !important;
     }
 
+    .section-support
     .section-container-article
     .article-header h3{
+        width: 320px;
+        margin: auto;
         font-weight: 500;
         font-size: 18px;
         line-height: 26px;
         letter-spacing: 2px;
-        text-align: center;
-        padding: 20px 15px;
+        text-align: justify;
+        padding: 20px 8px;
     }
 
     .section-support
@@ -3344,8 +3344,9 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     article:nth-child(even) .article-header h3 {
-        padding: 20px;
-       
+        width: 320px;
+        margin: auto;
+        padding: 20px 8px;
     }
 
     .section-support
