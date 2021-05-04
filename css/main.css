@@ -2927,6 +2927,7 @@ header {
    letter-spacing: 2px;
    line-height: 35px;
    margin-bottom: 20px;
+   color: #000529;
 }
 
 .section-support
@@ -3659,28 +3660,28 @@ article:nth-child(even) .container-image {
     
     .section-works-header
     .title-container {
-        bottom: 18px;
+        bottom: -3px;
     }
     
     .section-works-header .title {
-        font-size: 17px;
-        font-weight: 800;
+        font-size: 25px;
+        font-weight: 900;
         letter-spacing: 4px;
-        -webkit-text-stroke: 1px #00234b;
+        -webkit-text-stroke: 2px #00234b;
         text-stroke: 1px #00234b;
     }
     
     .section-works-header
     .large-title-container {
-        top: -12px;
+        top: -18px;
     }
     
     .section-works-header .large-title {
         width: 100%;
         margin-top: 0;
         font-family: var(--font-english-text);
-        font-size: 46px;
-        font-weight: 900;
+        font-size: 70px;
+        font-weight: 800;
     }
 
     .section-works
@@ -3705,7 +3706,7 @@ article:nth-child(even) .container-image {
     .container-left-image {
       width: 121px;
       height: 108px;
-      left: -25px;
+      left: -35px;
     }
 
     .section-works
@@ -3736,7 +3737,7 @@ article:nth-child(even) .container-image {
     .section-works
     .sliders
     .item p { 
-       font-size: 12px;
+       font-size: 14px;
     }
 
     .section-works
@@ -3756,7 +3757,7 @@ article:nth-child(even) .container-image {
         height: 149px;
         z-index: 5;
         left: 50%;
-        bottom: 0;
+        bottom: -2px;
         transform: translateX(-50%);
    }
     
