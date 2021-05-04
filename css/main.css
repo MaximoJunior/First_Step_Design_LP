@@ -2423,6 +2423,7 @@ header {
         padding-top: 0px;
         margin-top: 0px;
         position: relative;
+        top: -6px;
     }
 
     .section-nayami-header::before {
@@ -2433,7 +2434,7 @@ header {
         display: block;
         position: absolute;
         left: 50%;
-        bottom: 0px;
+        bottom: -10px;
         background: url(../images/img_nayami_header_line.png) no-repeat;
         background-size: contain;
         background-position: center top;
@@ -2462,7 +2463,7 @@ header {
         letter-spacing: 1px;
         font-weight: 800;
         position: absolute;
-        bottom: 10px;
+        bottom: 15px;
     }
 
     .section-nayami-header
@@ -2484,7 +2485,7 @@ header {
         width: auto;
         max-width: unset;
         margin: 0 15px;
-        margin-top: 130px;
+        margin-top: 140px;
         padding-top: 75px;
         padding-bottom: 60px;
         border: 2px solid #00234b;
@@ -2644,7 +2645,7 @@ header {
         height: 140px;
         max-height: 140px;
         position: absolute;
-        left: 10px;
+        left: 0px;
         top: -25px;
         display: flex;
         flex-direction: column;
@@ -2673,24 +2674,24 @@ header {
 
 
     .section-nayami .bottom-container .circle::after {
-        width: 20px; 
-        height: 20px; 
+        width: 15px; 
+        height: 15px; 
         position: absolute;
         z-index: 1;
-        bottom: 8px;
+        bottom: 15px;
         right: 6px;
         content: "";
         display: block;
         border: 2px solid #00234b;
         border-top: 1px solid transparent;
         border-left: 1px solid transparent;
-        border-radius: 0 0 4px 4px;
+        border-radius: 0 0 4px 0;
         background-color: white;
         -webkit-transform: rotate(0deg) skew(20deg, 20deg);
         -moz-transform: rotate(0deg) skew(20deg, 20deg);
         -ms-transform: rotate(0deg) skew(20deg, 20deg);
         -o-transform: rotate(0deg) skew(20deg, 20deg);
-        transform: rotate(0deg) skew(20deg, 20deg);
+        transform: rotate(-3deg) skew(20deg, 20deg);
     }
 
     .section-nayami .bottom-container .container-image {
@@ -2723,7 +2724,7 @@ header {
         display: flex;
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 5px;
     }
 
     .section-nayami .bottom-container .container-vertical-text
@@ -2731,11 +2732,11 @@ header {
         width: 24px;
         /* right: 470px;
         top: 35px; */
-        margin-right: 10px;
+        margin-right: 25px;
         word-wrap: break-word;
         letter-spacing: 1.5px;
-        line-height: 30px;
-        font-size: 30px;
+        line-height: 45px;
+        font-size: 40px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         -webkit-text-stroke: 1px #00234b;
@@ -2750,11 +2751,11 @@ header {
     .section-nayami .bottom-container .container-vertical-text
     .second-text {
         width: 13px;
-        line-height: 20px;
+        line-height: 23px;
         /* position: absolute; */
         /* right: 400px;
         top: 42px; */
-        font-size: 14px;
+        font-size: 18px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
     }
