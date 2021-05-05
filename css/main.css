@@ -3241,14 +3241,14 @@ article:nth-child(even) .container-image {
         width: 100%;
         max-width: 100%;
         padding: 0 15px;
-        margin-top: 140px !important;
+        margin-top: 195px !important;
     }
 
     .section-support
     .section-container-article
     article {
         width: 100%;
-        margin-bottom: 130px !important;
+        margin-bottom: 190px !important;
         border: 2px solid #00234b;
         border-radius: 10px;
     }
@@ -3301,10 +3301,10 @@ article:nth-child(even) .container-image {
     .section-container-article
     article 
     .container-image {
-        width: 160px;
-        height: 143px;
+        width: 208px;
+        height: 186px;
         position: absolute;
-        top: -120px;
+        top: -170px;
         bottom: unset;
         right: unset;
         left: 50%;
@@ -3315,17 +3315,13 @@ article:nth-child(even) .container-image {
         transform: translateX(-50%);
     }
 
-    /* .section-support
+    .section-support
     .section-container-article
     article 
-    .container-image img{
+    .container-image img {
         width: auto;
-        max-width: 128px;
-        height: auto;
-        max-height: 143px;
-    } */
-
-
+        height: 100%;
+    }
 
     .section-support
     .section-container-article
@@ -3360,7 +3356,7 @@ article:nth-child(even) .container-image {
     .section-container-article
     article:nth-child(even) .container-image {
         position: absolute;
-        top: -120px;
+        top: -170px;
         bottom: unset;
         right: unset;
         left: 50%;
