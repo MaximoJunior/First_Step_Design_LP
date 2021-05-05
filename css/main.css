@@ -3977,7 +3977,8 @@ article .article-paragraph{
      }
      
      .section-function-header {
-         width: 135px;
+         width: 100%;
+         max-width: 165px;
          height: 35px;
      }
      
@@ -3994,7 +3995,7 @@ article .article-paragraph{
      }
      
      .section-function-header .title {
-         font-size: 17px;
+         font-size: 25px;
          font-weight: 800;
          letter-spacing: 8px;
          text-align: center;
@@ -4002,37 +4003,41 @@ article .article-paragraph{
      
      .section-function
      .section-container-paragraph {
-         width: 260px;
+         width: 100%;
+         max-width: 578px;
          height: auto;
          margin: 30px auto;
+        
      }
      
      .section-function
      .section-container-paragraph p {
-         font-size: 11px;
+         padding: 0 15px;
+         font-size: 18px;
          font-family: var(--font-japanese-text);
          font-weight: 500;
          text-align: left;
          letter-spacing: 3px;
-         line-height: 16px;
+         line-height: 25px;
          color: #484848;
      }
      
      .section-function
      .section-container-article {
-         width: 300px;
+         width: 100%;
          grid-template-columns: repeat(2, 1fr);
          column-gap: 20px;
          row-gap: 30px;
+         padding: 0 15px;
      }
      
      .section-function
      .section-container-article 
      .article-title {
-          font-size: 10px;
+          font-size: 14.70px;
           font-family: var(--font-japanese-text);
           font-weight: 800;
-          letter-spacing: 2px;
+          letter-spacing: 1px;
           line-height: 50.4px;
           text-align: center;
           color: #00234b;
@@ -4050,11 +4055,11 @@ article .article-paragraph{
      .section-function
      .section-container-article 
      article .article-paragraph{
-         font-size: 10px;
+         font-size: 13px;
           font-family: var(--font-japanese-text);
           font-weight: 500;
           letter-spacing: 2px;
-          line-height: 15px;
+          line-height: 20px;
           color: #484848;
      }
 
