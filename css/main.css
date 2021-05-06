@@ -1262,16 +1262,17 @@ header {
 @media screen and (max-width: 767px){
 
     .welcome-section{
-        height: 460px;
+        height: 522.7272727272727px;
+        /* 460px */
      }
 
      .welcome-section
      .img-header-arrow {
          position: absolute;
-         width: 105;
-         height: 22px;
+         width: 119.31818181818181px;
+         height: 28.40909090909091px;
          z-index: 2;
-         bottom: -20px;
+         bottom: -22.727272727272727px;
          left: 50%;
          transform: translateX(-50%);
      }
@@ -1286,19 +1287,19 @@ header {
      }
      .welcome-section
      .container-content{
-         max-width: 332px;
+         max-width:377.27272727272725px;
      }
      
      .container-circle {
          
-        max-width: 330px;
+        max-width: 375px;
      }
      
      .container-circle .circle {
-         width: 100px;
-         max-width: 100px;
-         height: 100px;
-         max-height: 100px;
+         width: 113.63636363636364px;
+         max-width: 113.63636363636364px;
+         height: 113.63636363636364px;
+         max-height: 113.63636363636364px;
          position: relative;
          display: flex;
          flex-direction: column;
@@ -1310,22 +1311,22 @@ header {
      }
      
      .circle-dark-text {
-        font-size: 10px;
-        letter-spacing: 1.5px;
+        font-size: 11.363636363636363px;
+        letter-spacing: 1.7px;
      }
      
      .first-circle {
-         margin-top: 24px;
+         margin-top: 27.272727272727273px;
      }
      .first-circle::after {
-        width: 10px;
-        height: 10px;
-        bottom: 8px;
-         right: 6px;
+        width: 11.363636363636363px;
+        height: 11.363636363636363px;
+        bottom: 9.090909090909092px;
+         right: 6.818181818181818px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         border-radius: 0 0 3px 0;
+         border-radius: 0 0 3.4px 0;
          -webkit-transform: rotate(1deg) skew(22deg, 22deg);
          -moz-transform: rotate(1deg) skew(22deg, 22deg);
          -ms-transform: rotate(1deg) skew(22deg, 22deg);
@@ -1334,28 +1335,28 @@ header {
      }
      
      .first-circle .text-english {
-        font-size: 14px;
+        font-size: 15.909090909090908px;
         font-weight: 800;
      }
      
      .first-circle .text-japanese {
-         font-size: 13px;    
+         font-size: 14.772727272727273px;    
      }
      
      .second-circle {
          position: relative;
-         width: 100px;
-         max-width: 100px;
-         height: 100px;
-         max-height: 100px;
-         margin: 0 13px;
+         width: 113.63636363636364px;
+         max-width: 113.63636363636364px;
+         height: 113.63636363636364px;
+         max-height: 113.63636363636364px;
+         margin: 0 14.772727272727273px;
      }
      
      .second-circle::after {
-        width: 10px;
-        height: 10px;
+        width: 11.363636363636363px;
+        height: 11.363636363636363px;
          position: absolute;
-         bottom: -7px;
+         bottom: -7.954545454545454px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
@@ -1368,17 +1369,17 @@ header {
      }
      
      .second-circle .square-text-circle {
-         font-size: 10px;   
+         font-size: 11.363636363636363px; 
          font-weight: 500;
          border-radius: 3px;
-         padding: 1px 3px;
+         padding: 1.1363636363636365px 3.409090909090909px;
          margin: 0;
      }
      
      .second-circle .circle-very-dark-text {
-         font-size: 14px;  
+         font-size: 15.909090909090908px;  
          font-weight: 800;
-         letter-spacing: 1.5px;
+         letter-spacing: 1.7px;
      }
      
      .third-circle {
@@ -1386,10 +1387,10 @@ header {
      }
      
      .third-circle::after {
-        width: 10px;
-        height: 10px;
-        bottom: 4px;
-         left: 10px;
+        width: 11.363636363636363px;
+        height: 11.363636363636363px;
+        bottom: 4.545454545454546px;
+         left: 11.363636363636363px;
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
@@ -1402,14 +1403,14 @@ header {
      }
      
      .third-circle .circle-very-dark-text{
-         font-size: 14px;
+         font-size: 15.909090909090908px;
      }
      
      .welcome-section
     .content-container {
      position: relative;
-     top: -8px;
-     right: -10px;
+     top: -9.090909090909092px;
+     right: -11.363636363636363px;
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -1428,24 +1429,24 @@ header {
      .container-subtitle
      .subtitle
      .first-text {
-         font-size: 11px;
+         font-size: 12.5px;
          font-weight: 500;
-         letter-spacing: 2px;
+         letter-spacing: 2.3px;
      }
      
      .container-subtitle
      .subtitle
      .second-text {
-         top: -4px;
-         font-size: 18px;
+         top: -4.545454545454546px;
+         font-size: 20.454545454545453px;
          font-weight: 800;
-         letter-spacing: 3px;
+         letter-spacing: 3.4px;
      }
      
      .container-subtitle
      .subtitle
      .second-text .single-character {
-         font-size: 13px;
+         font-size: 14.772727272727273px;
      }
      
      .container-subtitle .subtitle-line-decoration {
@@ -1487,18 +1488,18 @@ header {
      /*---- Container title -------- */
      
      .container-title {
-         top: -10px;
-         left: -20px;
+         top: -11.363636363636363px;
+         left: -22.727272727272727px;
      }
  
      .container-title::after{
-         width: 310px;
-         height: 100px;
+         width: 352.27272727272725px;
+         height: 113.63636363636364px;
          display: block;
          content: "";
          position: absolute;
-         bottom: -48px;
-         left: -10px;
+         bottom: -54.54545454545455px;
+         left: -11.363636363636363px;
          z-index: 5;
          border-radius: 5px;
          background: url('../images/icon_welcome_element-arrow.png') no-repeat;
@@ -1509,7 +1510,7 @@ header {
      
      .title-second-line {
          position: relative;
-         top: -22px;
+         top: -25px;
          display: -webkit-box;
          display: -webkit-flex;
          display: -ms-flexbox;
@@ -1532,27 +1533,27 @@ header {
       */
      
      .title-yellow-text {
-         font-size: 48px;
-         -webkit-text-stroke: 2px #00234b;
-         text-shadow: 0px 2px #F5E533;
+         font-size: 54.54545454545455px;
+         -webkit-text-stroke: 2.272727272727273px #00234b;
+         text-shadow: 0px 2.272727272727273px #F5E533;
          font-weight: 900;
      }
      
      .title-yellow-text-second-line {
-         letter-spacing: 2px;
+         letter-spacing: 2.272727272727273px;
      }
      
      .title-second-line-row {
-         height: 70px;
-         width: 185px;
-         margin-left: 5px;;
+         height: 79.54545454545455px;
+         width: 210.22727272727272px;
+         margin-left: 5.681818181818182px;
          background: url(../images/icon_title_bg_price.png) no-repeat;
-         background-position: 0px -1px;
-         background-size: 180px 60px;
+         background-position: 0px -1.1363636363636365px;
+         background-size: 204.54545454545453px 68.18181818181819px;
      }
      
      .title-price {
-         font-size: 46px; 
+         font-size: 52.27272727272727px; 
      }
 
      .title-second-line-row .container .title-price-column {
@@ -1561,12 +1562,12 @@ header {
         display: -ms-flexbox;
         display: flex;
         flex-direction: column;
-        margin-left: 1.5px;
-        margin-bottom: -2px;
+        margin-left: 1.7px;
+        margin-bottom: -2.3px;
      }
      
      .price-column-r1 {
-         font-size: 7px;
+         font-size: 8px;
          font-weight: 500;
      }
      
@@ -1574,7 +1575,7 @@ header {
          position: relative;
          top: 0;
          padding: 0;
-         font-size: 14px;
+         font-size: 15.909090909090908px;
          font-family: var(--font-japanese-text);
          font-weight: 500;
          color: #00234b;
@@ -1584,11 +1585,11 @@ header {
      .container
      .title-price-previous {
         position: absolute;
-        width: 90px;
-        height: 40px;
+        width: 102.27272727272727px;
+        height: 45.45454545454545px;
         overflow: hidden;
-        bottom: 18px;
-        right: -72px;
+        bottom: 20.454545454545453px;
+        right: -81.81818181818181px;
         background: url(../images/img_title_bg_previous_price_tb.png) no-repeat;
         background-size: contain;
         top: unset;
@@ -1596,10 +1597,10 @@ header {
      
      .title-price-previous span {
          
-         left: -15px;
-         top: -3px;
+         left: -17.045454545454547px;
+         top: -3.409090909090909px;
          transform: rotate(-8deg);
-         font-size: 8px;
+         font-size: 9.090909090909092px;
       }
      
      .title-price-previous .price-previous-firts-text {
@@ -1608,23 +1609,23 @@ header {
 
      .title-price-previous
     .price-previous-second-text {
-     margin-top: -4px;
+     margin-top: -4.545454545454546px;
      letter-spacing: 1px;
     text-decoration-line: line-through;
     text-decoration-color: #dd2a55;
     -webkit-text-decoration-thickness: 1px;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 1.1363636363636365px;
     }
      
      
      /*  */
      .welcome-section-container-bottom {
          width: auto;
-         max-width: 400px;
+         max-width: 454.54545454545456px;
          position: absolute;
-         margin-left: -20px;
+         margin-left: -22.727272727272727px;
          left: 50%;
-         bottom: 38px;
+         bottom: 43.18181818181818px;
          transform: translateX(-50%);
      }
      
@@ -1632,27 +1633,27 @@ header {
      .welcome-section-container-bottom 
      .welcome-link-email {
          letter-spacing: 1.5px;
-         padding: 12px 20px;
-         font-size: 10px;
+         padding: 13.636363636363637px 22.727272727272727px;
+         font-size: 11.363636363636363px;
      }
      
      .welcome-section-container-bottom 
      .welcome-link-email
      .link-email-icon {
-         width: 12px;
-         height: 12px;
+         width: 13.636363636363637px;
+         height: 13.636363636363637px;
          margin: 0;
-         margin-bottom: -2px;
+         margin-bottom: -2.272727272727273px;
          /* margin-right: 15px; */
      }
      
      .welcome-section-img-man-laptop {
-         width: 112px;
-         height: 159px;
+         width: 127.27272727272727px;
+         height: 180.6818181818182px;
          position: absolute;
          z-index: 6;
-         top: -70px;
-         right: -84px;
+         top: -79.54545454545455px;
+         right: -95.45454545454545px;
      }
    
 
