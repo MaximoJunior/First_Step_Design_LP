@@ -1325,7 +1325,7 @@ header {
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         border-radius: 0 0 3px 0;
+         border-radius: 100px 0 20px 0;
          -webkit-transform: rotate(1deg) skew(22deg, 22deg);
          -moz-transform: rotate(1deg) skew(22deg, 22deg);
          -ms-transform: rotate(1deg) skew(22deg, 22deg);
@@ -1359,7 +1359,7 @@ header {
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         border-radius: 0 0 3px 0;
+         border-radius: 100px 0 20px 0;
          -webkit-transform: rotate(45deg) skew(22deg, 22deg);
          -moz-transform: rotate(45deg) skew(22deg, 22deg);
          -ms-transform: rotate(45deg) skew(22deg, 22deg);
@@ -1372,7 +1372,7 @@ header {
          font-weight: 500;
          border-radius: 3px;
          padding: 1px 3px;
-         margin: 0;
+         margin: 2px 0;
      }
      
      .second-circle .circle-very-dark-text {
@@ -1393,7 +1393,7 @@ header {
          border: 2px solid #00234b;
          border-top: 2px solid transparent;
          border-left: 2px solid transparent;
-         border-radius: 100px 0 3px 0;
+         border-radius: 100px 0 20px 0;
          -webkit-transform: rotate(82deg) skew(22deg, 22deg);
          -moz-transform: rotate(82deg) skew(22deg, 22deg);
          -ms-transform: rotate(82deg) skew(22deg, 22deg);
@@ -1455,15 +1455,15 @@ header {
      
          .container-subtitle .subtitle-line-decoration-left {
          height: 30px;
-         left: -20px;
-         top: 10px;
+         left: -15px;
+         top: 15px;
      }
      
      .container-subtitle .subtitle-line-decoration-left::after {
          width: 2px;
          height: 20px;
-         right: -10px;
-         bottom: 10px;
+         right: -6px;
+         top: 10px;
          transform: rotate(6deg);
      }
      
@@ -1478,8 +1478,8 @@ header {
          width: 2px;
          height: 20px;
          position: absolute;
-         right: 10px;
-         bottom: 10px;
+         right: 6px;
+         top: 10px;
          border-radius: 5px;
          transform: rotate(-6deg);
      }
@@ -1587,8 +1587,8 @@ header {
         width: 90px;
         height: 40px;
         overflow: hidden;
-        bottom: 18px;
-        right: -72px;
+        bottom: 20px;
+        right: -73px;
         background: url(../images/img_title_bg_previous_price_tb.png) no-repeat;
         background-size: contain;
         top: unset;
