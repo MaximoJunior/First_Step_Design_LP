@@ -212,12 +212,12 @@ header {
 /* -Phone- */
 @media only screen and (max-width: 767px){
     header {
-        height: 50px;
+        height: 60px;
         justify-content: space-between;
     }
     #logo {
-        width: 110px;
-        height: 26px;
+        width: 130px;
+        height: 46px;
     }
 
     .nav-bar {
@@ -249,8 +249,8 @@ header {
 
       .nav-bar-link-number {
         margin: 0 ;
-        margin-bottom: 5px;
-        font-size: 11px;
+        margin-bottom: 2px;
+        font-size: 12.5px;
         font-family: var(--font-english-text);
         font-weight: 500;
         letter-spacing: 2px;
@@ -260,7 +260,7 @@ header {
     .nav-bar-link-ours-tag,
     .nav-bar-link-telephone
     .nav-bar-link-description-tag {
-     font-size: 6px;
+     font-size: 8px;
      font-family: var(--font-japanese-text);
      font-weight: 500;
      letter-spacing: 1px;
@@ -284,14 +284,14 @@ header {
    }
 
    .nav-bar-link-email .nav-bar-link-icon {
-    width: 17px;
-    height: 17px;
+    width: 19px;
+    height: 19px;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
 
   .nav-bar-link-email-tag {
-     font-size: 7px;
+     font-size: 10px;
 
    }
 
@@ -308,7 +308,7 @@ header {
     height: 1280px;
     background: url('../images/top-BG.png') repeat;
     background-size: cover;
-    animation: animationBackground  linear 25s infinite ; 
+    animation: animationBackground  linear 35s infinite ; 
 }
 
 .welcome-section
@@ -901,11 +901,27 @@ header {
     margin-right: 15px;
 }
 
-.welcome-section-img-man-laptop {
+.welcome-section-img-kv {
     position: absolute;
+    width: auto;
+    height: 450px;
     z-index: 2;
-    top: -175px;
+    top: -200px;
     right: -350px;
+}
+
+.welcome-section-img-kv-text{
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    font-family: var(--font-japanese-text);
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+
+    color: #00234b;
+    top: 40px;
+    right: -260px;
 }
 
 /* -- RESPONSIVE WELCOME SECTION --*/
@@ -1247,13 +1263,26 @@ header {
         margin-bottom: -3px;
     }
     
-    .welcome-section-img-man-laptop {
+    .welcome-section-img-kv {
         width: 225px;
         height: 320px;
         position: absolute;
         z-index: 5;
         top: -100px;
         right: -210px;
+    }
+
+    .welcome-section-img-kv-text{
+        position: absolute;
+        z-index: 6;
+        font-size: 15px;
+        font-family: var(--font-japanese-text);
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #00234b;
+        top: 70px;
+        right: -160px;
     }
   
   
@@ -1282,7 +1311,7 @@ header {
          display: -ms-flexbox;
          display: flex;
          flex-direction: column-reverse;
-         padding-top: 50px;
+         padding-top: 70px;
      }
      .welcome-section
      .container-content{
@@ -1646,7 +1675,7 @@ header {
          /* margin-right: 15px; */
      }
      
-     .welcome-section-img-man-laptop {
+     .welcome-section-img-kv {
          width: 33.43283582089552vw;
          height: 47.46268656716418vw;
          position: absolute;
@@ -1654,6 +1683,19 @@ header {
          top: -20.895522388059703vw;
          right: -25.074626865671643vw;
      }
+
+     .welcome-section-img-kv-text{
+        position: absolute;
+        z-index: 7;
+        font-size: 7px;
+        font-family: var(--font-japanese-text);
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #00234b;
+        top: 12px;
+        right: -58px;
+    }
    
 
 }
@@ -6757,9 +6799,9 @@ a.container-link-phone {
 
  @keyframes animationBackground {
     from{
-        background-position: 0vw 0vh;
+        background-position: 0vw 0;
     }
     to{
-        background-position: 100vw -100vh;
+        background-position: 100vw 0;
     }
 }
