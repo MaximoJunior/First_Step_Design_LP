@@ -1652,7 +1652,7 @@ header {
          width: auto;
          max-width: 119.40298507462687vw;
          position: absolute;
-         margin-left: -5.970149253731344vw;
+         margin-left: -8.955223880597014vw;
          left: 50%;
          bottom: 11.343283582089553vw;
          transform: translateX(-50%);
@@ -1682,7 +1682,7 @@ header {
          position: absolute;
          z-index: 6;
          top: -26.865671641791046vw;
-         right: -29.850746268656717vw;
+         right: -32.83582089552239vw;
      }
 
      .welcome-section-img-kv-text{
@@ -1695,7 +1695,7 @@ header {
         text-align: center;
         color: #00234b;
         top: -0.29850746268656714vw;
-        right: -22.388059701492537vw;
+        right: -23.880597014925375vw;
     }
 
     /* .welcome-section-img-kv {
@@ -2488,7 +2488,7 @@ header {
         padding-top: 0px;
         margin-top: 0px;
         position: relative;
-        top: -6px;
+        bottom: 2.388059701492537vw;
     }
 
     .section-nayami-header::before {
@@ -5225,7 +5225,7 @@ article .article-paragraph{
     .section-service 
     .section-container-paragraph {
         width: 100%;
-        padding: 0 15px;
+        padding: 0 20px;
         margin: auto;
         margin-top: 20px;
     }
@@ -5244,7 +5244,7 @@ article .article-paragraph{
     .section-container-article {
         position: relative;
         width: 100%;
-        padding: 0 15px;
+        padding: 0 20px;
         margin-top: 50px;
         display: grid;
         grid-template-columns: 100%;
