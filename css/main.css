@@ -306,13 +306,13 @@ header {
 .welcome-section {
     position: relative;
     width: 100%;
-    height: 1280px;
+    height: 1330px;
     background: url('../images/top-BG.png') repeat;
     background-size: cover;
-    animation: animationBackground  linear 35s infinite ; 
+    animation: animationBackground  linear 35s infinite; 
 }
 
-.welcome-section
+/* .welcome-section
 .img-header-arrow {
     position: absolute;
     z-index: 1;
@@ -323,7 +323,7 @@ header {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-}
+} */
 
 .welcome-section-content-container {
     width: 100%;
@@ -878,7 +878,7 @@ header {
     position: absolute;
     z-index: 5;
     left: 50%;
-    bottom: 100px;
+    bottom: 150px;
     transform: translateX(-50%);
 }
 
@@ -925,12 +925,48 @@ header {
     right: -260px;
 }
 
+.container-triangulo {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    bottom: -1px;
+}
+
+.container-triangulo .t {
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-triangulo .t::before {
+    content: "";
+    display: block;
+    width: 3000px;
+    height: 100%;
+    position: absolute;
+    background-color: #f4f4f4;
+   
+}
+
+.container-triangulo .t1::before { 
+    right: 42px;
+    transform: skewX(60deg);
+}
+.container-triangulo .t2::before { 
+    left: 42px;
+    transform: skewX(-60deg);
+}
+
 /* -- RESPONSIVE WELCOME SECTION --*/
 
 @media only screen and (max-width: 1350px) and (min-width: 768px) {
 
     .welcome-section{
-       height: 860px;
+       height: 910px;
     }
     .welcome-section-content-container {
         overflow: hidden;
@@ -1242,7 +1278,7 @@ header {
         max-width: 330px;
         position: absolute;
         left: 50%;
-        bottom: 100px;
+        bottom: 150px;
         transform: translateX(-50%);
     }
     
@@ -1292,10 +1328,10 @@ header {
 @media screen and (max-width: 767px){
 
     .welcome-section{
-        height: 139.3939393939394vw;
+        height: 150.7462686567164vw;
      }
 
-     .welcome-section
+     /* .welcome-section
      .img-header-arrow {
          position: absolute;
          width: 31.34328358208955vw;
@@ -1304,7 +1340,7 @@ header {
          bottom: -5.970149253731344vw;
          left: 50%;
          transform: translateX(-50%);
-     }
+     } */
      .welcome-section-content-container {
          overflow: hidden;
          display: -webkit-box;
@@ -1654,7 +1690,7 @@ header {
          position: absolute;
          margin-left: -8.955223880597014vw;
          left: 50%;
-         bottom: 11.343283582089553vw;
+         bottom: 22.388059701492537vw;
          transform: translateX(-50%);
      }
      
@@ -1719,6 +1755,20 @@ header {
         top: -1px;
         right: -75px;
     } */
+
+    .container-triangulo {
+        height: 35px;
+    }
+
+    
+    .container-triangulo .t1::before { 
+        right: 28px;
+        transform: skewX(60deg);
+    }
+    .container-triangulo .t2::before { 
+        left: 28px;
+        transform: skewX(-60deg);
+    }
    
 
 }
@@ -1783,7 +1833,7 @@ header {
 .section-title-description-bg{
     font-family: var(--font-english-text);
     font-size: 180px;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 3px;
     text-align: center;
     color: white;
@@ -1794,7 +1844,7 @@ header {
 .section-nayami-header
 .row-description{
     position: relative;
-    bottom: -10px;
+    margin-top: -45px;
 }
 
 .section-nayami-header
@@ -2488,7 +2538,7 @@ header {
         padding-top: 0px;
         margin-top: 0px;
         position: relative;
-        bottom: 2.388059701492537vw;
+        bottom: -18px;
     }
 
     .section-nayami-header::before {
@@ -2551,7 +2601,7 @@ header {
         width: auto;
         max-width: unset;
         margin: 0 15px;
-        margin-top: 160px;
+        margin-top: 180px;
         padding-top: 75px;
         padding-bottom: 60px;
         border: 2px solid #00234b;
@@ -6840,3 +6890,5 @@ a.container-link-phone {
         background-position: 100vw 0;
     }
 }
+
+
