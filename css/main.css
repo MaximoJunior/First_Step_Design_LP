@@ -65,7 +65,7 @@ header {
     width: 425px;
     height: 50px;
     padding: 0 42px;
-    border-radius: 8px;
+    border-radius: 9px;
     background-color: #00234b;
 }
 
@@ -104,7 +104,7 @@ header {
     justify-content: center;
     margin-left: 25px;
     padding: 0 30px;
-    border-radius: 8px;
+    border-radius: 9px;
     background-color: #dd2a55;
 }
 
@@ -144,7 +144,7 @@ header {
         align-items: center;
         justify-content: center;
         padding: 0 20px;
-        border-radius: 8px;
+        border-radius: 5px;
         background-color: #00234b;
     }
 
@@ -186,7 +186,7 @@ header {
        width: 80px;
        height: 60px;
        margin: 0 10px;
-       
+       border-radius: 5px;
        padding: 0 8px;
        flex-direction: column;
        align-items: center;
@@ -236,7 +236,7 @@ header {
         align-items: center;
         justify-content: center;
         padding: 0 8px;
-        border-radius: 8px;
+        border-radius: 5px;
         background-color: #00234b;
     }
 
@@ -275,6 +275,7 @@ header {
      width: 56px;
      height: 48px;
      margin: 0 2px;
+     border-radius: 5px;
      flex-direction: column;
      padding:  0;
    }
@@ -1676,26 +1677,48 @@ header {
      }
      
      .welcome-section-img-kv {
-         width: 33.43283582089552vw;
-         height: 47.46268656716418vw;
+         width: auto;
+         height: 50.74626865671642vw;
          position: absolute;
          z-index: 6;
-         top: -20.895522388059703vw;
-         right: -25.074626865671643vw;
+         top: -26.865671641791046vw;
+         right: -29.850746268656717vw;
      }
 
      .welcome-section-img-kv-text{
         position: absolute;
         z-index: 7;
-        font-size: 7px;
+        font-size: 2.6865671641791047vw;
         font-family: var(--font-japanese-text);
         font-weight: 800;
-        letter-spacing: 1px;
+        letter-spacing: 0;
         text-align: center;
         color: #00234b;
-        top: 12px;
-        right: -58px;
+        top: -0.29850746268656714vw;
+        right: -22.388059701492537vw;
     }
+
+    /* .welcome-section-img-kv {
+        width: auto;
+        height: 170px;
+        position: absolute;
+        z-index: 6;
+        top: -90px;
+        right: -100px;
+    } */
+
+    /* .welcome-section-img-kv-text {
+        position: absolute;
+        z-index: 7;
+        font-size: 9px;
+        font-family: var(--font-japanese-text);
+        font-weight: 800;
+        letter-spacing: 0;
+        text-align: center;
+        color: #00234b;
+        top: -1px;
+        right: -75px;
+    } */
    
 
 }
@@ -4304,8 +4327,8 @@ article .article-paragraph{
     position: absolute;
     right: 0;
     color: #f5e532;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: #004cbd;
     top: 10px;
 }
@@ -4515,19 +4538,21 @@ article .article-paragraph{
 @media only screen and (max-width: 767px){ 
 
     .section-plan{
-        padding: 40px 0;
+        padding: 60px 0;
         padding-bottom: 60px;
+        overflow: hidden;
     } 
 
     .section-plan-header {
-        width: 185px;
-        height: 60px;
+        width: 220px;
+        height: 80px;
         margin: auto;
     }
 
     .section-plan-header
     .title{
-      font-size: 17px;
+      font-size: 25px;
+      font-family: var(--font-japanese-text);
     }
 
     .section-plan-header
@@ -4551,7 +4576,7 @@ article .article-paragraph{
     
     .section-plan-header
     .description-title {
-      font-size: 13px;
+      font-size: 18px;
       line-height: 50px;
     }
 
@@ -4560,8 +4585,8 @@ article .article-paragraph{
         position: absolute;
         width: 2px;
         height: 50px;
-        left: 0px;
-        bottom: -15px;
+        left: -10px;
+        bottom: -10px;
     }
     
     .section-plan-header
@@ -4580,7 +4605,7 @@ article .article-paragraph{
         position: absolute;
         width: 2px;
         height: 50px;
-        right: 0px;
+        right: -2px;
         bottom: -10px;
         transform: rotate(45deg);
     }
@@ -4599,7 +4624,7 @@ article .article-paragraph{
     
     .section-plan-header
     .container-header-image-left {
-        height: 100px;
+        height: 120px;
         position: absolute;
         left: -60px;
         bottom: 20px;
@@ -4613,7 +4638,7 @@ article .article-paragraph{
 
     .section-plan-header
     .container-header-image-right {
-        height: 100px;
+        height: 120px;
         position: absolute;
         right: -60px;
         bottom: 20px;
@@ -4628,10 +4653,11 @@ article .article-paragraph{
 
     .section-plan
     .container-plan-detail {
-        width: 300px;
+        width: 100%;
         height: auto;
         margin: auto;
         margin-top: 50px;
+        padding: 0 15px;
         display: grid;
         grid-template-columns: 100%;
         /* column-gap: 50px; */
@@ -4663,27 +4689,28 @@ article .article-paragraph{
     .section-plan
     .container-plan-detail 
     .article-header h3{
-        font-size: 11px;
+        font-size: 16px;
+        padding-left: 15px;
     }    
     .section-plan
     .container-plan-detail 
     .article-header p{
-        font-size: 18px;
-        padding: 10px 20px;
-        padding-right: 30px;
+        font-size: 24px;
+        padding: 10px 30px;
+        padding-right: 15px;
     } 
     
     .section-plan
     .container-plan-detail 
     .article-header p span.special {
-        font-size: 9px;
+        font-size: 11px;
         text-align: center;
         display: block;
     } 
     
     .section-plan
     .container-plan-detail article ul {
-        height: 185px;
+        height: auto;
         padding: 20px;
         margin: 0 15px 15px 15px;
         background-color: #f4f4f4;
@@ -4691,10 +4718,10 @@ article .article-paragraph{
     
     .section-plan
     .container-plan-detail article ul  li {
-        font-size: 11px;
+        font-size: 15px;
         line-height: 28px;
-        letter-spacing: 4px;
-        margin: 10px 0;
+        letter-spacing: 3px;
+        margin: 8px 0;
     }    
 
     .section-plan
@@ -5167,8 +5194,9 @@ article .article-paragraph{
     }  
 
     .section-service-header {
-        width: 260px;
-        height: 60px;
+        width: 100%;
+        height: 80px;
+        text-align: center;
     }
 
     .section-service-header
@@ -5177,33 +5205,37 @@ article .article-paragraph{
     }
 
     .section-service-header .title {
-        font-size: 17px;
-        letter-spacing: 1px;
-        -webkit-text-stroke: 1px #00234b;
-        text-stroke: 1px #00234b;
+        font-size: 25px;
+        letter-spacing: 7px;
+        font-weight: 900;
+        -webkit-text-stroke: 2px #00234b;
+        text-stroke: 2px #00234b;
     }
 
     .section-service-header
     .large-title-container {
         top: unset;
-        bottom: 17px;
+        bottom: 14px;
     }
     .section-service-header .large-title {
-        font-size: 46px;
+        font-size: 70px;
+        font-weight: 900;
     }    
 
     .section-service 
     .section-container-paragraph {
-        width: 260px;
+        width: 100%;
+        padding: 0 15px;
         margin: auto;
         margin-top: 20px;
     }
 
     .section-service 
     .section-container-paragraph p {
-       font-size: 11px;
-       line-height: 16px;
-       letter-spacing: 1.5px;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 24px;
+       letter-spacing: 2.5px;
        font-weight: 500;
        text-align: left;
     }   
@@ -5211,7 +5243,8 @@ article .article-paragraph{
     .section-service 
     .section-container-article {
         position: relative;
-        width: 260px;
+        width: 100%;
+        padding: 0 15px;
         margin-top: 50px;
         display: grid;
         grid-template-columns: 100%;
@@ -5234,17 +5267,19 @@ article .article-paragraph{
     .section-service 
     .section-container-article
     .article-title{
-        font-size: 12px;
+        font-size: 18px;
         line-height: 24px;
-        letter-spacing: 1.5px;
+        letter-spacing: 2.5px;
+        margin: 15px 0;
     }
 
     .section-service 
     .section-container-article
     .article-paragraph {
-        font-size: 11px;
-        line-height: 16px;
-        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2.5px;
+        margin: 0;
     }    
 
     .section-service
