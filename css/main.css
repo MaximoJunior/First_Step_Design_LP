@@ -214,6 +214,7 @@ header {
     header {
         height: 60px;
         justify-content: space-between;
+        padding: 0 5px;
     }
     #logo {
         width: 130px;
@@ -310,6 +311,7 @@ header {
     background: url('../images/top-BG.png') repeat;
     background-size: cover;
     animation: animationBackground  linear 35s infinite; 
+    background-color: #b5cedf;
 }
 
 /* .welcome-section
@@ -1348,7 +1350,7 @@ header {
          display: -ms-flexbox;
          display: flex;
          flex-direction: column-reverse;
-         padding-top: 70px;
+         padding-top: 90px;
      }
      .welcome-section
      .container-content{
@@ -1415,6 +1417,7 @@ header {
          height: 100px;
          max-height: 100px; */
          margin: 0 3.8805970149253732vw;
+         padding-top: 8px;
      }
      
      .second-circle::after {
@@ -6884,10 +6887,10 @@ a.container-link-phone {
 
  @keyframes animationBackground {
     from{
-        background-position: 0vw 0;
+        background-position: 0vw 0vw;
     }
     to{
-        background-position: 100vw 0;
+        background-position: 100vw -100vw;
     }
 }
 
