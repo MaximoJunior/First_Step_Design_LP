@@ -5768,33 +5768,34 @@ article
     }
 
     .section-flow-header::before {
-        bottom: -140px;
+        bottom: -205px;
     }
 
     .section-flow-header
     .large-title-container {
-        top: -12px; 
+        top: -18px; 
     }
 
     .section-flow-header
     .large-title { 
-        font-size: 46px;
+        font-size: 70px;
+        font-weight: 900;
     }
 
     .section-flow-header
     .large-title-description {
-        font-size: 12px;
+        font-size: 18px;
         margin: 5px 0;
     }
 
     .section-flow-header
     .title-container {
-        bottom: 55px;
+        bottom: -10px;
     }
   
     .section-flow-header
     .title { 
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 800;
         letter-spacing: 8px;
         -webkit-text-stroke: 1px #00234b;
@@ -5803,35 +5804,37 @@ article
 
     .section-flow-header
     .image-container {
-        top: 10px;
+        top: 20px;
     }
 
     .section-flow-header
     .image-container img {
-        width: 160px;
-        height: 139px;
+        width: auto;
+        height: 180px;
     }    
 
     .section-flow-header
     .image-container
     .image-description {
         width: 260px;
-        margin-top: -15px;
-        letter-spacing: 6px;
-        font-size: 12px;
-        padding: 10px 0px;
+        margin-top: -10px;
+        letter-spacing: 4px;
+        font-size: 15px;
+        padding: 8px 0px;
     }   
     
     /* ----- */
 
     .section-flow
     .container-article { 
-        width: 300px;
-        margin-top: 0px;
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 60px;
     }  
 
     .section-flow
     .container-article article {
+        width: 100%;
         height: auto;
         flex-direction: column;
         margin-bottom: 30px;
@@ -5868,22 +5871,24 @@ article
     .section-flow
     .container-article
     article .step-number{ 
-        width: 32px;
-        height: 32px;
+        width: 35px;
+        height: 35px;
         margin-right: 10px;
     }   
     
     .section-flow
     .container-article
     article .step-number span{
-        font-size: 7.55px;
+        font-size: 15px;
         letter-spacing: 1.5px;
+        font-family: var(--font-english-text);
+        font-weight: 900;
     }       
 
     .section-flow
     .container-article
     .article-header h3 {
-        font-size: 14px;
+        font-size: 18px;
     }  
 
     .section-flow
@@ -5908,9 +5913,10 @@ article
     .section-flow
     .container-article
     .article-content-container p {
-        font-size: 11px;
+        font-size: 16px;
         font-weight: 600;
-        line-height: 16px;
+        line-height: 22px;
+        margin-bottom: 15px;
     }        
 
 }
