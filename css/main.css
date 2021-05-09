@@ -5860,9 +5860,10 @@ article
     .container-article
     .article-header {
        width: 100% !important;
-       height: 190px;
+       height: auto;
        padding: 20px;
        padding-right: 0;
+       padding-bottom: 10px;
        border-radius: 0;
        border-top-right-radius: 13px;
        border-top-left-radius: 13px;
@@ -6547,40 +6548,47 @@ a.container-link-phone {
  @media only screen and (max-width: 767px) {
 
     .section-contact-header {
-       width: 300px;
+        width: 100%;
+       max-width: 320px;
        height: 60px;
     }
 
     .section-contact-header
     .large-title-container {
-        margin-top: -12px;
+        margin-top: -18px;
+        text-align: center;
     }
 
     .section-contact-header
     .title-container {
-        bottom: 16px ;
+        bottom: 0;
     }    
 
     .section-contact-header .title { 
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .section-contact-header .large-title { 
-        font-size: 46px;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+        letter-spacing: 0;
         margin: 0;
     }
 
     .section-contact 
     .section-container-paragraph{
-        width: 260px;
+        width: 100%;
+        padding: 25px;
         margin-top: 10px;
     }
 
     .section-contact 
     .section-container-paragraph p {
-      font-size: 11px;
-      line-height: 16px;
-      text-align: left;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 3px;
+      text-align: justify;
     }    
 
     .section-container-paragraph
@@ -6594,74 +6602,95 @@ a.container-link-phone {
     }   
     
     .section-contact
+    .container-link-phone-parent {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .section-contact
     a.container-link-phone { 
-        width: 300px;
-        height: 160px;
+        width: auto;
+        max-width: 375px;
+        height: auto;
+        padding: 20px;
+        margin: auto;
         margin-top: 25px;
     }
 
     .section-contact
     .phone-title {
-        font-size: 12px;
+        font-size: 17px;
+        letter-spacing: 2px;
     }
 
     .section-contact
     .phone-title::before { 
         width: 35px;
-        left: 0;
+        left: -28px;
     }
 
     .section-contact
     .phone-title::after { 
         width: 35px;
-        right: 0;
+        right: -28px;
     }
 
     .section-contact
     .container-phone-number {
-        width: 200px;
+        width: auto;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .section-contact
     .container-phone-number 
     .phone-icon{
-       margin-right: 10px;
+       margin-right: 15px;
     }
 
     .section-contact
     .container-phone-number 
     .phone-icon img {
-        width: 19px;
-        height: 19px;
+        width: 23px;
+        height: 23px;
     }
 
     .section-contact
     .container-phone-number 
     .phone-number {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .section-contact
     .container-link-phone
     .container-schedule {
-        width: 190px;
-        font-size: 10px;
+        width: 100%;
+        font-size: 15px;
+        letter-spacing: 4px;
         display: flex;
         flex-direction: column;
+    }
+    .section-contact
+    .container-link-phone
+    .container-schedule
+    .schedule-time-1 {
+        margin-bottom: 2px;
     }
 
     .section-contact
     .container-form .advice { 
-        width: 300px;
-        font-size: 12px;
-        text-align: left;
+        width: 100%;
+        font-size: 16px;
+        text-align: justify;
         margin: 30px auto;
     }
 
     .section-contact
     .container-form {
-        width: 300px;
+        width: 100%;
         margin: auto;
+        padding:  0 20px;
     }
 
     .section-contact
@@ -6680,8 +6709,9 @@ a.container-link-phone {
     .section-contact
     .container-form
     .form-input-column .label-radiobox {
-        font-size: 11px;
-        letter-spacing: 0px;
+        font-size: 16px;
+        letter-spacing: 2px;
+
     }
 
     .section-contact
@@ -6690,16 +6720,21 @@ a.container-link-phone {
         width: 100%;
     }
 
+    .section-contact .container-form .form-input-column-control label, 
+    .section-contact .container-form .form-input-column-control label {
+        padding: 5px 0;
+    }
+
     .section-contact .container-form .form-input-column-control
     .label-for-text-input {
-        font-size: 12px;
+        font-size: 16px;
         margin: 8px 0;
     }
 
     .section-contact
     .container-form
     .form-input-column-tag p{
-       font-size: 14px;
+       font-size: 18px;
     }
 
     .section-contact
