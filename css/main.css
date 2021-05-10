@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #logo {
@@ -127,7 +128,7 @@ header {
 }
 
 /* -Tablet- */
-@media only screen and (max-width: 1350px) and (min-width: 768px){
+@media only screen and (max-width: 1199px) and (min-width: 768px){
     header {
         height: 70px;
         justify-content: space-between;
@@ -313,6 +314,7 @@ header {
     background-size: cover;
     animation: animationBackground  linear 35s infinite; 
     background-color: #b5cedf;
+    overflow: hidden;
 }
 
 /* .welcome-section
@@ -966,7 +968,7 @@ header {
 
 /* -- RESPONSIVE WELCOME SECTION --*/
 
-@media only screen and (max-width: 1350px) and (min-width: 768px) {
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
 
     .welcome-section{
        height: 910px;
@@ -1097,7 +1099,7 @@ header {
     -o-transform: rotate(-8deg);
     transform: rotate(-8deg);
 
-}
+   }
     
     .container-subtitle
     .subtitle
@@ -1632,12 +1634,13 @@ header {
         display: flex;
         flex-direction: column;
         margin-left: 0.44776119402985076vw;
-        margin-bottom: -0.5970149253731343vw;
+        margin-bottom: -2.985074626865672vw;
      }
      
      .price-column-r1 {
          font-size: 2.08955223880597vw;
          font-weight: 500;
+         margin-bottom: -1.1940298507462686vw;
      }
      
      .price-column-r2 {
@@ -2196,7 +2199,7 @@ header {
 /* Responsive NAYAMI */
 
 /* Tablet */
-@media only screen and (max-width: 1350px) and (min-width: 768px){
+@media only screen and (max-width: 1199px) and (min-width: 768px){
 
     .section-nayami {
         height: auto;
@@ -3115,7 +3118,7 @@ article:nth-child(even) .container-image {
 
 /* Tablet */
 
-@media only screen and (max-width: 1350px) and (min-width: 768px){
+@media only screen and (max-width: 1199px) and (min-width: 768px){
 
     .section-support {
         padding-top: 62px;
@@ -3630,6 +3633,7 @@ article:nth-child(even) .container-image {
 .sliders
 .item {
    width: 205px;
+   margin: auto;
    padding: 0 10px;
 }
 
@@ -3696,7 +3700,7 @@ article:nth-child(even) .container-image {
 
 /* Tablet */
 
-@media only screen and (max-width: 1350px) and (min-width: 768px){
+@media only screen and (max-width: 1199px) and (min-width: 768px){
 
     .section-works-header {
         width: 500px;
@@ -3764,7 +3768,8 @@ article:nth-child(even) .container-image {
 @media screen and (max-width: 767px){ 
 
     .section-works { 
-       height: 585px;
+       height: 640px;
+       padding:  0 15px;
        overflow: hidden;
     }
 
@@ -3801,7 +3806,8 @@ article:nth-child(even) .container-image {
 
     .section-works
     .container-content{
-        width: 300px;
+        width: 100%;
+        height: 380px;
         margin-top: 85px;
     }
 
@@ -3844,15 +3850,31 @@ article:nth-child(even) .container-image {
     }
 
     .section-works
+    .container-sliders {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-works
     .container-sliders
     .sliders {
-        width: 204px;
+        width: 250px;
+        height: auto;
+    }
+    
+    .section-works
+    .container-sliders
+    .sliders
+    .item { 
+        width: 250px;
+        height: auto;
+        margin: auto;
     }
 
     .section-works
     .sliders
     .item p { 
-       font-size: 14px;
+       font-size: 16px;
     }
 
     .section-works
@@ -3998,7 +4020,7 @@ article .article-paragraph{
 /* Responsive SECTION FUNCTION */
 
 /* TABLET */
-@media only screen and (max-width: 1350px) and (min-width: 768px){ 
+@media only screen and (max-width: 1199px) and (min-width: 768px){ 
     .section-function {
         padding: 80px 0;
      }
@@ -4433,7 +4455,7 @@ article .article-paragraph{
 /* Responsive */
 
 /* Tablet */
-@media only screen and (max-width: 1350px) and (min-width: 768px){ 
+@media only screen and (max-width: 1199px) and (min-width: 768px){ 
 
     .section-plan-header {
         width: 390px;
@@ -5040,7 +5062,7 @@ article .article-paragraph{
 
 /* Tablet */
 
-@media only screen and (max-width: 1350px) and (min-width: 768px){ 
+@media only screen and (max-width: 1199px) and (min-width: 768px){ 
 
     .section-service {
         background-color: #f5e532;
@@ -5601,7 +5623,7 @@ article
 
 /* Tablet */
 
-@media only screen and (max-width: 1350px) and (min-width: 768px){ 
+@media only screen and (max-width: 1199px) and (min-width: 768px){ 
     .section-flow {
         padding-bottom: 100px;
     }
@@ -6416,7 +6438,7 @@ a.container-link-phone {
 }
 
 /* Responsive  */
-@media only screen and (max-width: 1350px) and (min-width: 768px){
+@media only screen and (max-width: 1199px) and (min-width: 768px){
 
     .section-contact-header {
        width: 620px;
@@ -6797,13 +6819,13 @@ a.container-link-phone {
     .section-contact
     .container-bottom-image
     .container-message {
-        width: 160px;
-        height: 25px;
-        padding: 4px 0;
-        font-size: 6px;
+        width: 220px;
+        height: 40px;
+        padding: 6px 0;
+        font-size: 10px;
         font-family: var(--font-japanese-text);
         letter-spacing: 2px;
-        line-height: 6px;
+        line-height: 12px;
         bottom: 25px;
         border: 2px solid #00234b;
         border-radius: 3px;
@@ -6819,6 +6841,7 @@ a.container-link-phone {
      height: 160px;
      padding: 30px 0 20px 0;
      background-color: #00234b;
+     position: relative;
      overflow: hidden;
  }
 
@@ -6877,14 +6900,28 @@ a.container-link-phone {
     color: #a7a7a7;
  }
 
+ footer
+ .link_go_up {
+     position: absolute;
+     right: 30px;
+     bottom: 30px;
+ }
+
  /* Footer Responsive */
 
  /* Tablet */
 
- @media only screen and (max-width: 1350px) and (min-width: 768px){
+ @media only screen and (max-width: 1199px) and (min-width: 768px){
     .footer
     .container-copyright {
         width: 668px;
+    }
+
+    footer
+    .link_go_up {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
     }
  }
 
@@ -6921,6 +6958,43 @@ a.container-link-phone {
     footer
     .container-copyright a {
         font-size: 8.64px;
+    }
+
+    .footer
+    .container-logo {
+        width: 100%;
+    }
+
+    .footer
+    .container-logo .footer-logo{
+        width: 160px;
+        height: auto;
+    }
+
+    .footer
+    .container-logo .formula {
+        font-size: 12px;
+    }
+
+    .footer .container-copyright .copy-text {
+        font-size: 11.3px;
+    }
+
+    footer .container-copyright a {
+        font-size: 11px;
+    }
+
+
+    footer
+    .link_go_up {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+    }
+    footer
+    .link_go_up img {
+        width: 25px;
+        height: auto;
     }
 
  }
