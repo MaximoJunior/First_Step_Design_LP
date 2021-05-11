@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+
 /*========= Variables =========*/
 :root {
    --font-japanese-text: 'M PLUS Rounded 1c', sans-serif;
@@ -16,6 +17,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /*========== HEADER ============*/
 
@@ -2969,9 +2973,9 @@ header {
 /*===== SECTION SUPPORT ======= */
 
 .section-support {
-    background: url('../images/img_support_section_bg.png') repeat;
+    background: url('../images/top-BG.png') repeat;
     background-size: cover;
-    background-size: cover;
+    background-color: #f5e532;
     animation: animationBackground  linear 25s infinite ; 
     padding-top: 130px;
     padding-bottom: 130px;
@@ -3990,8 +3994,9 @@ article:nth-child(even) .container-image {
 
 /*===== Wrapper white Section ======= */
 .wraper-white-section {
-   background: url('../images/img_works_description_bg.png') repeat;
+   background: url('../images/top-BG.png') repeat;
    background-size: cover;
+   background-color: #ffffff;
    animation: animationBackground  linear 25s infinite ; 
 }
 
@@ -5450,8 +5455,9 @@ article .article-paragraph{
 /* === SECTION FLOW === */
 
 .section-flow {
-    background: url('../images/img_flow_bg.png') repeat;
+    background: url('../images/top-BG.png') repeat;
     background-size: cover;
+    background-color: #d3e6f3;
     animation: animationBackground  linear 25s infinite ; 
     padding-bottom: 150px;
 }
@@ -7093,14 +7099,60 @@ a.container-link-phone {
 
 .animation {
     opacity: 0;
-    transition: all 1300ms;
+    transition: all 2000ms;
 }
 
 .animation_hide_down {
-    transform: translateY(20%);
+    transform: translateY(15%);
+}
+
+.animation_scale_down {
+    transform: scale(0);
 }
 
 .animation_show_up {
     transform: translateY(0);
     opacity: 1;
+}
+
+.animation_kv_text {
+    animation-name: animation_kv_text;
+    animation-duration: 3000ms;
+    animation-iteration-count: 1;
+}
+
+.animation_balloon1 {
+    animation-name: animation_balloon;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+}
+
+.animation_balloon2 {
+    animation-name: animation_balloon;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+}
+
+.animation_balloon3 {
+    animation-name: animation_balloon;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+
+@keyframes animation_kv_text {
+    0%{
+        transform:  scale(0);
+    }
+    85%{
+        transform: scale(1);
+    }
+}
+
+@keyframes animation_balloon {
+    0%{
+        transform:  scale(0);
+    }
+    80%{
+        transform: scale(1);
+    }
 }

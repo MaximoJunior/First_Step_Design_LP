@@ -21,6 +21,7 @@
     }
 
     if (y) {
+        // header.style.display = "none";
 
         if (header.style.transition != "") {
             return;
