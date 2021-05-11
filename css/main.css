@@ -7091,3 +7091,16 @@ a.container-link-phone {
 }
 
 
+.animation {
+    opacity: 0;
+    transition: all 1300ms;
+}
+
+.animation_hide_down {
+    transform: translateY(20%);
+}
+
+.animation_show_up {
+    transform: translateY(0);
+    opacity: 1;
+}
