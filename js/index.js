@@ -83,15 +83,15 @@ $(document).ready(function () {
 //This is only for DEV mode
 //335px
 //768px
-function getRelative(v) {
-    var r = (v * 100) / 768;
-    return r + "vw";
-}
+// function getRelative(v) {
+//     var r = (v * 100) / 768;
+//     return r + "vw";
+// }
 
-function getPX(v) {
-    var r = (v * 768) / 100;
-    return r + "px";
-}
+// function getPX(v) {
+//     var r = (v * 768) / 100;
+//     return r + "px";
+// }
 
 
 function animationScroll(){
