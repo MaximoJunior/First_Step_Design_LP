@@ -3,7 +3,7 @@
   window.onload = function (){
     window.addEventListener("scroll", effectsHeader);
     window.addEventListener("scroll", animationScroll);
-    // animationScroll();
+    animationScroll();
  }
  //Header Effects
  function effectsHeader() {

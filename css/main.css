@@ -2346,14 +2346,14 @@ header {
     } 
 
     .section-nayami-header {
-        width: 620px;
-        max-width: 620px;
-        padding-top: 10px;
+        width: 640px;
+        max-width: 640px;
+        padding-top: 0px;
         margin-bottom: 0px;
     }
 
     .section-nayami-header::before {
-        width: 75%;
+        width: 97%;
         height: 56px;
         content: "";
         display: block;
@@ -2366,7 +2366,7 @@ header {
 
    .section-nayami-header
    .section-title-description-bg{
-        font-size: 92px;
+        font-size: 120px;
         font-weight: 800;
         letter-spacing: 3px;
     }
@@ -2381,7 +2381,7 @@ header {
     .section-title-description {
         width: 100%;
         height: auto;
-        font-size: 18px;
+        font-size: 25px;
         letter-spacing: 1.5px;
         font-weight: 500;
         position: absolute;
@@ -2390,15 +2390,16 @@ header {
 
     .section-nayami-header
     .section-title {
-        font-size: 24px;
-        font-weight: 900;
-        letter-spacing: 1.5px;
+        font-size: 34px;
+        font-weight: 800;
+        letter-spacing: 4px;
+        padding-top: 10px;
         padding-bottom: 30px;
     }
 
     .section-nayami-header
     .section-title span {
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 500;
     }
 
@@ -2423,7 +2424,7 @@ header {
     
     .section-nayami h3 {
         padding: 27px 45px 0 0;
-        font-size: 16px;
+        font-size: 19px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
         letter-spacing: 2px;
@@ -2499,21 +2500,22 @@ header {
     .section-nayami
     .container-article-content .article h4 {
         padding: 20px 0;
-        line-height: 21.6px;
-        font-size: 14px;
+        line-height: 23px;
+        font-size: 18px;
         font-family: var(--font-japanese-text);
         font-weight: 900;
         text-align: center;
-        letter-spacing: 1.5px;
+        letter-spacing: 2.5px;
     }
 
 
     .section-nayami
     .container-article-content .article p {
-        font-size: 13px;
+        font-size: 16px;
         font-family: var(--font-japanese-text);
         font-weight: 500;
-        line-height: 19.43px;
+        line-height: 22px;
+        letter-spacing: 2px;
     }
 
     .section-nayami
@@ -2572,14 +2574,15 @@ header {
 
     .section-nayami
     .bottom-container .circle span {
-        font-size: 16px;
+        font-size: 22px;
         font-weight: 500;
+        color: #484848;
     }
 
     .section-nayami
     .bottom-container .circle span.especial-text {
-        font-size: 24px;
-        font-weight: 500;
+        font-size: 30px;
+        font-weight: 800;
     }
 
 
@@ -3273,7 +3276,7 @@ article:nth-child(even) .container-image {
 @media only screen and (max-width: 1199px) and (min-width: 768px){
 
     .section-support {
-        padding-top: 62px;
+        padding-top: 54px;
         padding-bottom: 45px;
     }
 
@@ -3285,6 +3288,7 @@ article:nth-child(even) .container-image {
 
     .section-support-header::after {
         background-size: contain;
+        bottom: -70px;
     }
 
     .section-support-header .large-title-container{
@@ -3292,14 +3296,14 @@ article:nth-child(even) .container-image {
     }
 
     .section-support-header .large-title {
-        font-size: 92px;
-        font-weight: 600;
+        font-size: 120px;
+        font-weight: 900;
         margin: 0;
         top: unset;
     }
 
     .section-support-header .large-title-description {
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 500;
         letter-spacing: 1.5px;
         text-align: center;
@@ -3307,10 +3311,10 @@ article:nth-child(even) .container-image {
     }
 
     .section-support-header .title {
-        font-size: 36px;
-        font-weight: 900;
+        font-size: 55px;
+        font-weight: 800;
         font-family: var(--font-japanese-text);
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         text-align: center;
         color: white;
         -webkit-text-stroke: 2px #00234b;
@@ -3321,25 +3325,25 @@ article:nth-child(even) .container-image {
     .section-support-header .title-description {
         font-family: var(--font-japanese-text);
         font-weight: 500;
-        font-size: 26px;
+        font-size: 35px;
         color: #00234b;
         text-align: center;
-        letter-spacing: 1.5px;
-        padding-bottom: 20px;
+        letter-spacing: 4px;
+        padding-bottom: 0px;
     }
 
     .section-support-header .title-container { 
-        bottom: 20px;
+        bottom: -30px;
     }
 
     .section-support-header .large-title-container {
-
+        
     }
 
     .section-support
     .section-container-article { 
         width: 670px;
-        margin-top: 78px !important;
+        margin-top: 125px !important;
     }
 
     .section-support
@@ -3348,14 +3352,22 @@ article:nth-child(even) .container-image {
         width: 580px;
         margin-bottom: 100px !important;
         border: 4px solid #00234b;
+        border-radius: 10px;
+    }
+
+    .section-container-article
+    .article-header {
+        border-radius: 6px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
     .section-container-article
     .article-header h3{
         font-weight: 500;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20.2px;
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
         padding: 20px 25px;
         padding-right: 175px;
     }
@@ -3365,15 +3377,19 @@ article:nth-child(even) .container-image {
     .container-content {
         padding: 15px 25px;
         padding-right: 160px;
+        border-radius: 6px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 
     .section-support
     .section-container-article
     article p {
-        font-size: 12px;
-        letter-spacing: 1.5px;
-        line-height: 16px; 
-        margin-bottom: 30px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 20px; 
+        margin-bottom: 15px;
+        color: #000529;
 
     }
 
@@ -3420,7 +3436,7 @@ article:nth-child(even) .container-image {
     .section-support
     .section-container-article
     article:nth-child(even) .container-content {
-        padding-right:  10px;
+        padding-right:  20px;
         padding-left: 175px;
     }
 
@@ -3456,7 +3472,7 @@ article:nth-child(even) .container-image {
         position: absolute;
     display: block;
     content: "";
-    width: 318px;
+    width: 320px;
     height: 50px;
     bottom: -50px;
     left: 50%;
@@ -3485,10 +3501,10 @@ article:nth-child(even) .container-image {
     }
 
     .section-support-header .title {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 900;
         font-family: var(--font-japanese-text);
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         text-align: center;
         color: white;
         -webkit-text-stroke: 2px #00234b;
@@ -3810,6 +3826,8 @@ article:nth-child(even) .container-image {
 
 .section-works
 .container-sliders  button {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
    position: absolute;
    background: transparent;
    border: none;
@@ -3820,9 +3838,14 @@ article:nth-child(even) .container-image {
 }
 
 .section-works
-.container-sliders  button:focus {
-    outline: none;
-    box-shadow: none;
+.container-sliders  button:focus{
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 0 !important;
+    -webkit-outline: none !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+   
 }
 
 .section-works
@@ -3867,11 +3890,11 @@ article:nth-child(even) .container-image {
 
     .section-works-header
     .title-container {
-         bottom: 25px;
+         bottom: 5px;
     }
 
     .section-works-header .title {
-        font-size: 36px;
+        font-size: 55px;
         font-weight: 800;
         letter-spacing: 8px;
     }
@@ -3883,9 +3906,9 @@ article:nth-child(even) .container-image {
 
     .section-works-header .large-title {
         width: 100%;
-        margin-top: 0;
+        margin-top: -7px;
         font-family: var(--font-english-text);
-        font-size: 92px;
+        font-size: 120px;
     }
 
     .section-works
@@ -3916,7 +3939,7 @@ article:nth-child(even) .container-image {
     .section-works
     .sliders
     .item p { 
-       font-size: 12px;
+       font-size: 16px;
     }
     
 }
@@ -3942,10 +3965,10 @@ article:nth-child(even) .container-image {
     }
     
     .section-works-header .title {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 900;
         letter-spacing: 4px;
-        -webkit-text-stroke: 2px #00234b;
+        -webkit-text-stroke: 1.5px #00234b;
         text-stroke: 1px #00234b;
     }
     
@@ -4209,14 +4232,14 @@ article .article-paragraph{
      
      .section-function
      .section-container-paragraph {
-         width: 530px;
+         width: 550px;
          height: auto;
          margin: 50px auto;
      }
      
      .section-function
      .section-container-paragraph p {
-         font-size: 13px;
+         font-size: 18px;
          font-family: var(--font-japanese-text);
          font-weight: 500;
          letter-spacing: 3px;
@@ -4235,7 +4258,7 @@ article .article-paragraph{
      .section-function
      .section-container-article 
      .article-title {
-          font-size: 14px;
+          font-size: 18px;
           font-family: var(--font-japanese-text);
           font-weight: 800;
           letter-spacing: 3px;
@@ -4256,11 +4279,11 @@ article .article-paragraph{
      .section-function
      .section-container-article 
      article .article-paragraph{
-          font-size: 12px;
+          font-size: 16px;
           font-family: var(--font-japanese-text);
           font-weight: 500;
           letter-spacing: 3px;
-          line-height: 18px;
+          line-height: 20px;
           color: #484848;
      }
       
@@ -4274,14 +4297,14 @@ article .article-paragraph{
      
      .section-function-header {
          width: 100%;
-         max-width: 165px;
+         max-width: 200px;
          height: 35px;
      }
      
      .section-function-header::after {
          width: 100%;
          height: 15px;
-         bottom: 8px;
+         bottom: -5px;
      }
      
      .section-function-header .title-container {
@@ -4291,7 +4314,7 @@ article .article-paragraph{
      }
      
      .section-function-header .title {
-         font-size: 25px;
+         font-size: 30px;
          font-weight: 800;
          letter-spacing: 8px;
          text-align: center;
@@ -4731,12 +4754,12 @@ article .article-paragraph{
     .section-plan
     .container-plan-detail 
     .article-header h3{
-        font-size: 13px;
+        font-size: 16px;
     }    
     .section-plan
     .container-plan-detail 
     .article-header p{
-        font-size: 18px;
+        font-size: 20px;
         padding: 10px 20px;
         padding-right: 30px;
     } 
@@ -4744,7 +4767,7 @@ article .article-paragraph{
     .section-plan
     .container-plan-detail 
     .article-header p span.special {
-        font-size: 9px;
+        font-size: 12px;
         text-align: center;
         display: block;
     } 
@@ -4759,7 +4782,7 @@ article .article-paragraph{
     
     .section-plan
     .container-plan-detail article ul  li {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 28px;
         margin: 6px 0;
     }    
@@ -4783,14 +4806,14 @@ article .article-paragraph{
     } 
 
     .section-plan-header {
-        width: 220px;
+        width: 280px;
         height: 80px;
         margin: auto;
     }
 
     .section-plan-header
     .title{
-      font-size: 25px;
+      font-size: 30px;
       font-family: var(--font-japanese-text);
     }
 
@@ -5241,21 +5264,21 @@ article .article-paragraph{
 
     .section-service-header
     .title-container{
-       bottom: 30px;
+       bottom: 0px;
     }
 
     .section-service-header .title {
-        font-size: 36px;
-        letter-spacing: 3px;
+        font-size: 55px;
+        letter-spacing: 12px;
     }
 
     .section-service-header
     .large-title-container {
         top: unset;
-        bottom: 32px;
+        bottom: 5px;
     }
     .section-service-header .large-title {
-        font-size: 92px;
+        font-size: 120px;
     }    
 
     .section-service 
@@ -5267,8 +5290,8 @@ article .article-paragraph{
 
     .section-service 
     .section-container-paragraph p {
-       font-size: 12px;
-       letter-spacing: 1.5px;
+       font-size: 18px;
+       letter-spacing: 2.5px;
        font-weight: 500;
     }   
 
@@ -5328,14 +5351,14 @@ article .article-paragraph{
     .section-service 
     .section-container-article
     .article-title {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
     } 
 
     .section-service 
     .section-container-article
     .article-paragraph{
-        font-size: 13px;
+        font-size: 16px;
         line-height: 24px;
     }
 
@@ -5440,11 +5463,11 @@ article .article-paragraph{
 
     .section-service-header
     .title-container{
-       bottom: 20px;
+       bottom: 15px;
     }
 
     .section-service-header .title {
-        font-size: 25px;
+        font-size: 30px;
         letter-spacing: 7px;
         font-weight: 900;
         -webkit-text-stroke: 2px #00234b;
@@ -5805,7 +5828,7 @@ article
     }
 
     .section-flow-header::before {
-        bottom: -100px;
+        bottom: -165px;
     }
 
     .section-flow-header
@@ -5815,23 +5838,23 @@ article
 
     .section-flow-header
     .large-title { 
-        font-size: 92px;
+        font-size: 120px;
         letter-spacing: 0;
     }
 
     .section-flow-header
     .large-title-description {
-        font-size: 18.7px;
+        font-size: 25px;
     }
 
     .section-flow-header
     .title-container {
-        bottom: 90px;
+        bottom: 10px;
     }
   
     .section-flow-header
     .title { 
-        font-size: 36.14px;
+        font-size: 55px;
         letter-spacing: 20px;
     }
 
@@ -5842,16 +5865,16 @@ article
 
     .section-flow-header
     .image-container img {
-        width: 222px;
-        height: 194px;
+        width: auto;
+        height: 230px;
     }    
 
     .section-flow-header
     .image-container
     .image-description {
-        width: 320px;
+        width: 340px;
         margin-top: -20px;
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 8px;
         padding: 10px;
     }
@@ -5860,7 +5883,7 @@ article
     .section-flow
     .container-article { 
         width: 668px;
-        margin-top: 20px;
+        margin-top: 50px;
     }  
     
     .section-flow
@@ -5895,7 +5918,7 @@ article
     .section-flow
     .container-article
     article .step-number span{
-        font-size: 10px;
+        font-size: 16px;
         letter-spacing: 1.5px;
         font-weight: 900;
     }   
@@ -5911,7 +5934,7 @@ article
     .section-flow
     .container-article
     .article-header h3 {
-        font-size: 14px;
+        font-size: 18px;
         letter-spacing: 2px;
         font-weight: 500;
     }  
@@ -5942,7 +5965,7 @@ article
     .section-flow
     .container-article
     .article-content-container p {
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 2px;
@@ -5989,9 +6012,9 @@ article
   
     .section-flow-header
     .title { 
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 800;
-        letter-spacing: 8px;
+        letter-spacing: 5px;
         -webkit-text-stroke: 1px #00234b;
         text-stroke: 1px #00234b;
     }
@@ -6630,41 +6653,42 @@ a.container-link-phone {
 
     .section-contact-header
     .large-title-container {
-        margin-top: -22px;
+        margin-top: -28px;
     }
 
     .section-contact-header
     .title-container {
        
-        bottom: 23px ;
+        bottom: 0;
     }    
 
     .section-contact-header .title { 
-        font-size: 36px;
+        font-size: 55px;
     }
 
     .section-contact-header .large-title { 
-        font-size: 92px;
+        font-size: 120px;
         margin: 0;
     }
 
     .section-contact 
     .section-container-paragraph{
-        width: 668px;
+        width: 715px;
     }
 
     .section-contact 
     .section-container-paragraph p {
-      font-size: 12px;
-      line-height: 24px;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 3px;
     }    
 
     .section-container-paragraph
     .img-container {
         position: absolute;
-        right: 0px;
+        right: -30px;
         top: -175px;
-        width: 84px;
+        width: auto;
         height: 183px;
     }   
 
@@ -6766,11 +6790,11 @@ a.container-link-phone {
 
     .section-contact-header
     .title-container {
-        bottom: 0;
+        bottom: -5px;
     }    
 
     .section-contact-header .title { 
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .section-contact-header .large-title { 
