@@ -1,27 +1,21 @@
   var header = document.getElementsByTagName("header")[0];
+  var sectionNayami = document.getElementById('section-nayami');
 
   window.onload = function (){
     window.addEventListener("scroll", effectsHeader);
     window.addEventListener("scroll", animationScroll);
     animationScroll();
  }
+
  //Header Effects
  function effectsHeader() {
-    var supportPageOffset = window.pageXOffset !== undefined;
-    var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
-    var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
     var timeOutId = null;
-    //console.log(y)
+    var heigthHeader = header.offsetHeight;
 
-    if (y == 0) {
-        header.style.boxShadow = "";
-        header.style.transition = "";
-        header.style.backgroundColor = "transparent";
-        clearTimeout(timeOutId)
-    }
+    var distance = sectionNayami.getBoundingClientRect().top;
 
-    if (y) {
-        // header.style.display = "none";
+    if (distance <= heigthHeader) {
+         header.classList.add("show-header");
 
         if (header.style.transition != "") {
             return;
@@ -37,6 +31,14 @@
             header.style.transition = "transform ease 600ms";
         }, 100);
 
+    }else if(distance > heigthHeader) {
+        header.style.position = "none";
+        header.style.top = "unset";
+        header.style.transition = "";
+        header.style.boxShadow = "";
+        header.style.backgroundColor = "transparent";
+        header.classList.remove("show-header");
+        clearTimeout(timeOutId)
     }
     
 }
@@ -94,11 +96,6 @@ function getPX(v) {
 
 function animationScroll(){
     var animatedElements = document.getElementsByClassName('animation');
-    // var supportPageOffset = window.pageXOffset !== undefined;
-    // var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
-    // var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-    // //console.log(y);
-    // console.log(animations[0].offsetTop);
 
     var height = window.innerHeight / 1.3;
 
@@ -113,5 +110,4 @@ function animationScroll(){
         }
     }
 
-    console.log(height, distance)
 }
