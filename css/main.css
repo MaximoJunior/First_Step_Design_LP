@@ -3048,8 +3048,8 @@ header {
 /*===== SECTION SUPPORT ======= */
 
 .section-support {
-    background: url('../images/top-BG.png') repeat;
-    background-size: auto;
+    background: url('../images/img_support_section_bg.png') repeat;
+    background-size: cover;
     background-color: #f5e532;
     animation: animationBackground  linear 25s infinite ; 
     padding-top: 130px;
@@ -3462,6 +3462,7 @@ article:nth-child(even) .container-image {
     .section-support {
         padding-top: 56px;
         padding-bottom: 0px !important;
+        background-size: 300%;
     }
 
 
@@ -4095,10 +4096,16 @@ article:nth-child(even) .container-image {
 
 /*===== Wrapper white Section ======= */
 .wraper-white-section {
-   background: url('../images/top-BG.png') repeat;
-   background-size: auto;
+   background: url('../images/img_works_description_bg.png') repeat;
+   background-size: cover;
    background-color: #ffffff;
    animation: animationBackground  linear 25s infinite ; 
+}
+
+@media only screen and (max-width: 767px) {
+    .wraper-white-section { 
+        background-size: 300%;
+    }
 }
 
 
@@ -5558,8 +5565,8 @@ article .article-paragraph{
 /* === SECTION FLOW === */
  
 .section-flow {
-    background: url('../images/top-BG.png') repeat;
-    background-size: auto;
+    background: url('../images/img_flow_bg.png') repeat;
+    background-size: cover;
     background-color: #d3e6f3;
     animation: animationBackground  linear 25s infinite ; 
     padding-bottom: 150px;
@@ -5978,6 +5985,7 @@ article
 
     .section-flow {
         padding-bottom: 30px;
+        background-size: 300%;
     }
 
     .section-flow-header {
